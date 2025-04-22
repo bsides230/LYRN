@@ -8,10 +8,10 @@ Created by: Mathew Schroeder
 
 Most AI systems forget who they are between turns.
 
-They re-prompt, re-fetch, and re-instruct—treating memory as an afterthought. LYRN changes that.  
+They re-prompt, re-fetch, and re-instruct. Treating memory as an afterthought. LYRN changes that.  
 It moves cognition out of the prompt and into structure.
 
-This repo contains the foundational papers behind LYRN, a self-hosted AI framework that enables even small, local LLMs to reason with **presence, continuity, and identity**—without cloud dependencies or fine-tuning.
+This repo contains the foundational papers behind LYRN, a self-hosted AI framework that enables even small, local LLMs to reason with presence, continuity, and identity, without cloud dependencies or fine-tuning.
 
 ---
 
