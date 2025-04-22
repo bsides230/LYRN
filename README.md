@@ -30,10 +30,10 @@ It doesn’t just simulate presence. It *holds* it.
 
 ## 📄 Documents
 
-### 🔧 [LYRN Whitepaper (PDF)](whitepaper/LYRN_Whitepaper.pdf)
+### 🔧 [LYRN Whitepaper (PDF)](/LYRN_Whitepaper.pdf)
 Full technical specification of the LYRN architecture, memory tables, identity core, and cognitive flow.
 
-### 🧠 [Beyond Prompt Injection (PDF)](manifesto/Beyond_Prompt_Injection.pdf)
+### 🧠 [Beyond Prompt Injection (PDF)](/Beyond_Prompt_Injection.pdf)
 A short-form manifesto exploring the failure of stateless AI and LYRN’s philosophy of continuity.
 
 ---
