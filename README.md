@@ -1,7 +1,6 @@
 # LYRN: The Living Yield Relational Network
 
-**A symbolic memory architecture for post-prompt AI cognition.**  
-Patent Pending: U.S. Provisional Patent Application No. 63/792,586  
+**A symbolic memory architecture for post-prompt AI cognition.**
 Created by: Mathew Schroeder
 
 ---
