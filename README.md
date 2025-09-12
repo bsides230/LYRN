@@ -15,25 +15,32 @@ LYRN is built on a philosophy that diverges significantly from mainstream LLM de
 ## Major Features
 
 ✅ **Modern, Responsive UI**: Built with CustomTkinter for a professional look and feel. Asynchronous initialization ensures the UI loads instantly and never freezes during model operations.
+
 ✅ **Live System Monitoring**: Real-time gauges for CPU, RAM, Disk, and VRAM usage.
+
 ✅ **Advanced Theming Engine**: Includes a live, in-app Theme Builder to create, modify, and save custom color themes.
+
 ✅ **Dynamic System Prompt Builder**: A powerful two-panel UI gives you granular control over every component of the system prompt.
     - Dynamically create, edit, and delete prompt components.
     - Toggle components on or off.
     - Reorder components with arrow keys.
     - Customize block wrappers and content for ultimate flexibility.
+
 ✅ **Job & Tool Automation**: A powerful automation system with:
     - A **Job Manager** to create and run complex, multi-step jobs.
     - A **Scheduler** with a full calendar view to run jobs at specific dates and times.
     - A **Cycle Manager** to create and execute custom, multi-step cognitive cycles.
     - Support for the **`gpt-oss` "harmony" format** for defining tools, allowing the AI to be extended with new capabilities.
+
 ✅ **Structured, Long-Term Memory**:
     - **Episodic Memory**: Saves each chat interaction as a structured, searchable file.
     - **Topic Indexing**: A background process that identifies and indexes topics from conversations to build a personalized web of meaning over time.
     - **Quote System**: Right-click any text in the chat to "Quote to Context" for easy reference.
+
 ✅ **Chat Persistence & Control**:
     - Chat history is automatically saved and reloaded between sessions.
     - Fine-grained control over how much chat history and which memory "deltas" are injected into the context for each turn.
+
 ✅ **Full Model Control**:
     - Save and load model configuration presets for one-click setup.
     - In-app controls for all key generation parameters (`temperature`, `top_p`, `top_k`, etc.).
