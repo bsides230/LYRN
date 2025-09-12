@@ -1,5 +1,21 @@
 # LYRN-AI Build Notes
 
+## v4.2.8 - Windows Quick Start Guide (2025-09-12)
+
+This is a documentation update to clarify the launch process for new users on Windows.
+
+- **Updated `QUICK_START.md`**:
+  - The "First Launch" section has been rewritten to be Windows-specific, as this is the primary tested OS.
+  - Added clear instructions for two launch methods:
+    1.  **Standard Launch**: Double-clicking the `.pyw` file for a normal, console-free experience.
+    2.  **Developer Launch**: Running the `.pyw` file with `python.exe` from a terminal to see console output for debugging.
+  - Added a note clarifying that the project is primarily tested on Windows.
+
+### Logging
+- No changes to logging mechanisms were necessary for this update.
+
+---
+
 ## v4.2.7 - Documentation and In-App Help (2025-09-12)
 
 This is a major documentation and usability update focused on improving the user experience by providing comprehensive documentation and context-sensitive help directly within the application.
