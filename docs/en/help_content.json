@@ -1,0 +1,113 @@
+{
+  "generic": {
+    "coming_soon": {
+      "code": "g01",
+      "title": "Help Not Available",
+      "text": "Help documentation for this section has not been written yet."
+    }
+  },
+  "main_window": {
+    "system_status": {
+      "code": "mw01",
+      "title": "System Status",
+      "text": "This section shows the current status of the AI model.\n\n- Status Light: Indicates if the model is Ready, Thinking, Loading, or in an Error state.\n- Status Message: Provides more detail on the current operation.\n- Model Toggle: Load or Offload the model from memory.\n- Model Settings: Open the detailed model configuration window.\n- System Prompt: Open the prompt builder.\n- Personality: Open the personality editor."
+    },
+    "quick_controls": {
+      "code": "mw02",
+      "title": "Quick Controls",
+      "text": "Provides one-click access to common actions.\n\n- View Logs: Opens the detailed system and LLM log viewer.\n- Code Terminal: Opens a new system terminal.\n- Clear Display: Clears the text from the chat window.\n- Clear Chat Folder: Deletes all saved chat log files."
+    },
+    "performance_metrics": {
+        "code": "mw03",
+        "title": "Performance Metrics",
+        "text": "Displays real-time performance data for the last AI generation.\n\n- KV Cache: How many tokens were reused from memory.\n- Prompt/Response: The number of tokens in the user's prompt and the AI's response.\n- Generation: The speed of token generation.\n- Time: How long tokenization and generation took.\n- Total: The total tokens processed against your context size."
+    },
+    "system_resources": {
+        "code": "mw04",
+        "title": "System Resources",
+        "text": "Live monitoring of your computer's hardware.\n\n- CPU: CPU usage percentage and temperature.\n- RAM: System memory usage.\n- Disk: Disk space usage for the drive where the app is located.\n- VRAM: Video memory usage (for NVIDIA GPUs)."
+    },
+    "job_automation": {
+        "code": "mw05",
+        "title": "Job Automation",
+        "text": "This section controls the AI's automation capabilities.\n\n- Active Cycle: Select and run a multi-step cognitive cycle.\n- Job Runner: Manually trigger a specific job.\n- OSS Tool Runner: Manually trigger a specific tool.\n- Job Manager: Open the main automation window to create and manage jobs, schedules, and cycles.\n- OSS Tools: Open the editor for creating and managing tools."
+    }
+  },
+  "settings_popup": {
+    "directory_paths": {
+      "code": "sp01",
+      "title": "Directory Paths",
+      "text": "This tab allows you to configure the directories where the application saves different types of data, such as chat logs, system prompt snapshots, and metrics."
+    },
+    "ui_settings": {
+      "code": "sp02",
+      "title": "UI Settings",
+      "text": "Customize the look and feel of the application.\n\n- Language: Change the display language (requires restart).\n- Theme: Select a color theme.\n- Font Size: Increase or decrease the application's font size.\n- Terminal Start Path: Set the default directory for the 'Code Terminal' button."
+    },
+    "chat_settings": {
+      "code": "sp03",
+      "title": "Chat Settings",
+      "text": "Configure chat history and context injection.\n\n- Save Chat History: Toggle whether conversations are saved to episodic memory.\n- History Length: Set how many past message pairs are sent to the AI for context.\n- Injection Toggles: Control whether memory deltas and chat history are added to the prompt.\n- Folder Management: Clear or open the chat log folder.\n- View Chat History: Open the full, searchable chat history viewer."
+    },
+    "advanced_settings": {
+      "code": "sp04",
+      "title": "Advanced Settings",
+      "text": "Perform maintenance tasks and access testing utilities.\n\n- System Maintenance: Clear directories for chat logs, deltas, or metrics.\n- Testing Utilities: Export system info or open the Theme Builder.\n- Model Loading Control: Configure how the model is loaded on startup."
+    }
+  },
+  "prompt_builder_popup": {
+    "main": {
+      "code": "pb01",
+      "title": "System Prompt Builder",
+      "text": "This window gives you complete control over the system prompt.\n\nThe left panel lists all available prompt components. You can enable/disable them with the switch, and reorder them using the arrow buttons.\n\nThe right panel shows the editor for the selected component.\n\n- Rebuild Master Prompt: Click this to apply your changes and regenerate the master prompt file.\n- View Final Prompt: See a preview of the fully assembled prompt."
+    }
+  },
+  "job_watcher_popup": {
+    "job_viewer": {
+      "code": "jw01",
+      "title": "Job Viewer",
+      "text": "This tab displays all available jobs.\n\n- Select a job from the list to enable the 'Edit', 'Run', and 'Delete' buttons.\n- Check the box next to a job name to 'pin' it. Pinned jobs are loaded into the system prompt at startup, making them available for the AI to use autonomously."
+    },
+    "scheduler": {
+      "code": "jw02",
+      "title": "Scheduler",
+      "text": "This tab allows you to schedule jobs to run at specific times.\n\n- Navigate between months using the '<' and '>' buttons.\n- Click on a day to open the schedule for that day.\n- Days with scheduled jobs are highlighted."
+    },
+    "prompt_training": {
+      "code": "jw03",
+      "title": "Prompt Training (Reflection)",
+      "text": "This is an advanced feature for automatically improving job prompts.\n\n1. Select a job to reflect on.\n2. Provide instructions on how to evaluate the job's output.\n3. Optionally, provide a 'gold-standard' example of a perfect output.\n4. Run the job, then run the reflection. The AI will analyze its own output and can even rewrite the job prompt to be better next time."
+    },
+    "cycle_builder": {
+      "code": "jw04",
+      "title": "Cycle Builder",
+      "text": "Create multi-step cognitive cycles.\n\n- A cycle is a sequence of triggers (prompts) that are run in order.\n- Use this to chain multiple jobs together to perform complex tasks."
+    }
+  },
+  "oss_tool_popup": {
+    "viewer": {
+      "code": "ot01",
+      "title": "Tool Viewer",
+      "text": "This tab lists all available OSS (Open-Source Spec) Tools.\n\n- Select a tool from the list to enable the 'Edit' and 'Delete' buttons.\n- These tools can be made available to the AI via the 'oss_tools' component in the System Prompt Builder."
+    },
+    "editor": {
+      "code": "ot02",
+      "title": "Tool Editor",
+      "text": "This tab allows you to create or edit a tool using a TypeScript-like syntax.\n\n- Name: A unique, descriptive name for the tool (e.g., 'get_current_weather').\n- Definition: Define the function signature, parameters, and their types. Use comments to describe what the tool does and what its parameters are for."
+    }
+  },
+  "memory_popup": {
+    "main": {
+      "code": "mp01",
+      "title": "Chat History Viewer",
+      "text": "This window allows you to view and manage the AI's episodic memory (past conversations).\n\n- The list shows all saved chat entries, identified by a summary and timestamp.\n- Use the search bar to filter entries by keywords.\n- Select entries using the checkboxes and click 'Add Selected to Context' to load their full content into a review file (`chat_review.txt`), which can then be used by the AI."
+    }
+  },
+    "personality_popup": {
+    "main": {
+      "code": "pp01",
+      "title": "Personality Editor",
+      "text": "This window allows you to adjust the AI's core personality traits using sliders.\n\n- Presets: Load a saved set of personality traits.\n- Save Preset: Save the current slider values as a new preset.\n- Edit Formats: Advanced option to change how the personality values are formatted and sent to the AI.\n\nChanges are applied in real-time as you move the sliders."
+    }
+  }
+}

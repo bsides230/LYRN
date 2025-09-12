@@ -1,0 +1,8 @@
+{
+  "instructions": "The following are a list of internal tools that you can use to perform actions or parse information. You can call them by name.",
+  "rwi_text": "Internal Tools: A set of internal tools the AI can call to perform system actions or parse text.",
+  "begin_bracket": "###TOOLS_START###",
+  "end_bracket": "###TOOLS_END###",
+  "tool_begin_bracket": "###TOOL_START|*tool_name*###",
+  "tool_end_bracket": "###TOOL_END|*tool_name*###"
+}

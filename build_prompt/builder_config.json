@@ -1,0 +1,8 @@
+{
+  "personality": true,
+  "prompt_build_order": true,
+  "user_preferences": true,
+  "ai_preferences": true,
+  "system_rules": true,
+  "system_instructions": true
+}

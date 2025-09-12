@@ -1,0 +1,122 @@
+{
+  "settings": {
+    "active": {
+      "model_path": "models/openai_gpt-oss-20b-Q4_K_M.gguf",
+      "n_ctx": 16000,
+      "n_threads": 22,
+      "n_gpu_layers": 36,
+      "n_batch": 256,
+      "max_tokens": 1024,
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "top_k": 40,
+      "stream": true,
+      "chat_format": null,
+      "is_oss_model": false
+    },
+    "paths": {
+      "static_snapshots": "D:\\LYRN-SAD\\build_prompt/static_snapshots",
+      "dynamic_snapshots": "D:\\LYRN-SAD\\build_prompt/dynamic_snapshots",
+      "active_jobs": "D:\\LYRN-SAD\\build_prompt/active_jobs",
+      "deltas": "D:\\LYRN-SAD\\deltas",
+      "chat": "D:\\LYRN-SAD\\chat",
+      "output": "D:\\LYRN-SAD\\output",
+      "keywords": "D:\\LYRN-SAD\\active_keywords",
+      "topics": "D:\\LYRN-SAD\\active_topics",
+      "active_chunk": "D:\\LYRN-SAD\\active_chunk",
+      "chunk_queue": "D:\\LYRN-SAD\\automation/chunk_queue.json",
+      "job_list": "D:\\LYRN-SAD\\automation/job_list.txt",
+      "job_log": "D:\\LYRN-SAD\\automation/job_log.json",
+      "automation_flag_path": "D:\\LYRN-SAD\\global_flags/automation.txt",
+      "chunk_queue_path": "D:\\LYRN-SAD\\automation/chunk_queue.json",
+      "chat_dir": "D:\\LYRN-SAD\\chat",
+      "chat_parsed_dir": "D:\\LYRN-SAD\\chat_parsed",
+      "audit_dir": "D:\\LYRN-SAD\\automation/job_audit",
+      "metrics_logs": "D:\\LYRN-SAD\\metrics_logs"
+    },
+    "model_presets": {
+      "1": {
+        "model_path": "models/openai_gpt-oss-20b-Q4_K_M.gguf",
+        "n_ctx": 16000,
+        "n_threads": 22,
+        "n_gpu_layers": 36,
+        "temperature": 0.7,
+        "max_tokens": 1024,
+        "top_p": 0.95,
+        "top_k": 40,
+        "n_batch": 256,
+        "chat_format": null
+      },
+      "2": {
+        "model_path": "D:\\LYRN-SAD\\models\\gemma-3-4b-it-q4_0_s.gguf",
+        "n_ctx": 80000,
+        "n_threads": 22,
+        "n_gpu_layers": 36,
+        "temperature": 0.7,
+        "max_tokens": 5000,
+        "top_p": 0.95,
+        "top_k": 40,
+        "n_batch": 256,
+        "chat_format": null
+      },
+      "3": {
+        "model_path": "D:\\LYRN-SAD\\models\\openai_gpt-oss-20b-Q4_K_M.gguf",
+        "n_ctx": 8192,
+        "n_threads": 8,
+        "n_gpu_layers": 0,
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "top_p": 0.95,
+        "top_k": 40,
+        "n_batch": 0,
+        "chat_format": null
+      },
+      "4": {
+        "model_path": "D:\\LYRN-SAD\\models\\openai_gpt-oss-20b-Q4_K_M.gguf",
+        "n_ctx": 8192,
+        "n_threads": 8,
+        "n_gpu_layers": 0,
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "top_p": 0.95,
+        "top_k": 40,
+        "n_batch": 0,
+        "chat_format": null
+      },
+      "5": {
+        "model_path": "D:\\LYRN-SAD\\models\\openai_gpt-oss-20b-Q4_K_M.gguf",
+        "n_ctx": 8192,
+        "n_threads": 8,
+        "n_gpu_layers": 0,
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "top_p": 0.95,
+        "top_k": 40,
+        "n_batch": 0,
+        "chat_format": null
+      }
+    }
+  },
+  "ui_settings": {
+    "font_size": 12,
+    "window_size": "1400x900",
+    "confirmation_preferences": {},
+    "save_chat_history": false,
+    "chat_history_length": 50,
+    "show_thinking_text": true,
+    "chat_colors": {
+      "user_text": "#00C0A0",
+      "assistant_text": "#FFFFFF",
+      "thinking_text": "#FFD700",
+      "system_text": "#B0B0B0"
+    },
+    "show_model_selector": false,
+    "autoload_model": false,
+    "llm_log_visible": false,
+    "llm_log_on_top": false,
+    "language": "en",
+    "terminal_start_path": "",
+    "enable_deltas": true,
+    "enable_chat_history": true
+  }
+}

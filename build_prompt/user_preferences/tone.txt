@@ -1,0 +1,11 @@
+Name: 
+Nickname/Prefered_Name: 
+Age: 
+Location: 
+Sex: 
+Occupation: 
+Relation_To_You: 
+Hobbies: 
+Family: 
+Partner/Spouse: 
+Notes: 

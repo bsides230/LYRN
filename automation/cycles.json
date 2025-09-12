@@ -1,0 +1,15 @@
+{
+  "Test Cycle": {
+    "name": "Test Cycle",
+    "triggers": [
+      {
+        "name": "Step 1",
+        "prompt": "This is the first trigger."
+      },
+      {
+        "name": "Step 2",
+        "prompt": "This is the second trigger."
+      }
+    ]
+  }
+}

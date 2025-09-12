@@ -1,0 +1,1 @@
+This is the Relational Web Index (RWI). It provides the LLM with a list of active components and how to interpret them. Each line represents an active component and its associated brackets and purpose. **You must read through the following components listed in the RWI before each response.**

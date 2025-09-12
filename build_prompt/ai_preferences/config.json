@@ -1,0 +1,6 @@
+{
+  "begin_bracket": "###AI_PREFERENCES_START###",
+  "end_bracket": "###AI_PREFERENCES_END###",
+  "content_file": "verbosity.txt",
+  "rwi_text": "- ai_preferences: [###AI_PREFERENCES_START###][###AI_PREFERENCES_END###]: AI-specific preferences."
+}

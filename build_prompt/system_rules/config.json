@@ -1,0 +1,6 @@
+{
+  "begin_bracket": "###SYSTEM_RULES_START###",
+  "end_bracket": "###SYSTEM_RULES_END###",
+  "content_file": "safety.txt",
+  "rwi_text": "- system_rules: [###SYSTEM_RULES.START###]...[###SYSTEM_RULES.END###] Hard constraints on behavior."
+}

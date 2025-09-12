@@ -1,0 +1,12 @@
+This is the Relational Web Index (RWI). It provides the LLM with a list of active components and how to interpret them. Each line represents an active component and its associated brackets and purpose.
+
+
+- system_instructions: [###SYSTEM_INSTRUCTIONS_START###][###SYSTEM_INSTRUCTIONS_END###]: Core system instructions.
+
+- personality: [###PERSONALITY_START###][###PERSONALITY_END###]: A set of traits that define the AI's persona.
+
+- user_preferences: [###USER_PREFERENCES_START###][###USER_PREFERENCES_END###]: User-specific preferences.
+
+- ai_preferences: [###AI_PREFERENCES_START###][###AI_PREFERENCES_END###]: AI-specific preferences.
+
+- system_rules: [###SYSTEM_RULES_START###][###SYSTEM_RULES_END###]: Hard constraints on behavior.

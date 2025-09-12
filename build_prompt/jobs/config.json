@@ -1,0 +1,8 @@
+{
+  "instructions": "This block contains a list of all active jobs. When the trigger for the job, shown in the job instructions, is input into the system you must perform that job. The jobs are not acted on unless a trigger is input.\n\n**DO NOT PERFORM A JOB WITHOUT A TRIGGER INPUT**\n**PERFORM SPECIFIED JOB WHEN TRIGGER IS ACTIVATED**",
+  "rwi_text": "- jobs_instructions: [###JI_START###][###JI_END###]: This block contains a list of job instructions.",
+  "begin_bracket": "###JOBS_START###",
+  "end_bracket": "###JOBS_END###",
+  "job_begin_bracket": "###JOB_*job_name*_START###",
+  "job_end_bracket": "###JOB_*job_name*_END###"
+}

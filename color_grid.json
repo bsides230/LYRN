@@ -1,0 +1,846 @@
+{
+  "base": "#7552bf",
+  "label_mode": "hex",
+  "sections": [
+    {
+      "id": "primary",
+      "label": "Primary (purple)",
+      "swatches": [
+        {
+          "id": "primary-50",
+          "step": 50,
+          "hex": "#f1eff5",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 1.14,
+          "contrast_vs_black": 18.41,
+          "show_label": true
+        },
+        {
+          "id": "primary-100",
+          "step": 100,
+          "hex": "#e3dfec",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 1.31,
+          "contrast_vs_black": 16.03,
+          "show_label": true
+        },
+        {
+          "id": "primary-200",
+          "step": 200,
+          "hex": "#c7bfd9",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 1.77,
+          "contrast_vs_black": 11.88,
+          "show_label": true
+        },
+        {
+          "id": "primary-300",
+          "step": 300,
+          "hex": "#a896cf",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 2.65,
+          "contrast_vs_black": 7.93,
+          "show_label": true
+        },
+        {
+          "id": "primary-400",
+          "step": 400,
+          "hex": "#8c73bf",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 3.95,
+          "contrast_vs_black": 5.32,
+          "show_label": true
+        },
+        {
+          "id": "primary-500",
+          "step": 500,
+          "hex": "#6b45ba",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 6.59,
+          "contrast_vs_black": 3.19,
+          "show_label": true
+        },
+        {
+          "id": "primary-600",
+          "step": 600,
+          "hex": "#593a9c",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 8.37,
+          "contrast_vs_black": 2.51,
+          "show_label": true
+        },
+        {
+          "id": "primary-700",
+          "step": 700,
+          "hex": "#462c7d",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 10.96,
+          "contrast_vs_black": 1.92,
+          "show_label": true
+        },
+        {
+          "id": "primary-800",
+          "step": 800,
+          "hex": "#35215f",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 13.69,
+          "contrast_vs_black": 1.53,
+          "show_label": true
+        },
+        {
+          "id": "primary-900",
+          "step": 900,
+          "hex": "#261745",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 16.27,
+          "contrast_vs_black": 1.29,
+          "show_label": false
+        },
+        {
+          "id": "primary-950",
+          "step": 950,
+          "hex": "#190f2e",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 18.27,
+          "contrast_vs_black": 1.15,
+          "show_label": false
+        }
+      ]
+    },
+    {
+      "id": "analog-a",
+      "label": "Analogous A (indigo)",
+      "swatches": [
+        {
+          "id": "analog-a-50",
+          "step": 50,
+          "hex": "#efeff5",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 1.15,
+          "contrast_vs_black": 18.34,
+          "show_label": true
+        },
+        {
+          "id": "analog-a-100",
+          "step": 100,
+          "hex": "#dfdfec",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 1.32,
+          "contrast_vs_black": 15.9,
+          "show_label": true
+        },
+        {
+          "id": "analog-a-200",
+          "step": 200,
+          "hex": "#bfbfd9",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 1.8,
+          "contrast_vs_black": 11.67,
+          "show_label": true
+        },
+        {
+          "id": "analog-a-300",
+          "step": 300,
+          "hex": "#9697cf",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 2.75,
+          "contrast_vs_black": 7.62,
+          "show_label": true
+        },
+        {
+          "id": "analog-a-400",
+          "step": 400,
+          "hex": "#7374bf",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 4.22,
+          "contrast_vs_black": 4.98,
+          "show_label": true
+        },
+        {
+          "id": "analog-a-500",
+          "step": 500,
+          "hex": "#4546ba",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 7.4,
+          "contrast_vs_black": 2.84,
+          "show_label": true
+        },
+        {
+          "id": "analog-a-600",
+          "step": 600,
+          "hex": "#3a3b9c",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 9.19,
+          "contrast_vs_black": 2.29,
+          "show_label": true
+        },
+        {
+          "id": "analog-a-700",
+          "step": 700,
+          "hex": "#2c2c7d",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 11.91,
+          "contrast_vs_black": 1.76,
+          "show_label": true
+        },
+        {
+          "id": "analog-a-800",
+          "step": 800,
+          "hex": "#21225f",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 14.4,
+          "contrast_vs_black": 1.46,
+          "show_label": true
+        },
+        {
+          "id": "analog-a-900",
+          "step": 900,
+          "hex": "#171745",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 16.87,
+          "contrast_vs_black": 1.24,
+          "show_label": false
+        },
+        {
+          "id": "analog-a-950",
+          "step": 950,
+          "hex": "#0f0f2e",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 18.62,
+          "contrast_vs_black": 1.13,
+          "show_label": false
+        }
+      ]
+    },
+    {
+      "id": "analog-b",
+      "label": "Analogous B (violet)",
+      "swatches": [
+        {
+          "id": "analog-b-50",
+          "step": 50,
+          "hex": "#f3eff5",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 1.14,
+          "contrast_vs_black": 18.48,
+          "show_label": true
+        },
+        {
+          "id": "analog-b-100",
+          "step": 100,
+          "hex": "#e7dfec",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 1.3,
+          "contrast_vs_black": 16.16,
+          "show_label": true
+        },
+        {
+          "id": "analog-b-200",
+          "step": 200,
+          "hex": "#d0bfd9",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 1.73,
+          "contrast_vs_black": 12.14,
+          "show_label": true
+        },
+        {
+          "id": "analog-b-300",
+          "step": 300,
+          "hex": "#bb96cf",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 2.51,
+          "contrast_vs_black": 8.38,
+          "show_label": true
+        },
+        {
+          "id": "analog-b-400",
+          "step": 400,
+          "hex": "#a473bf",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 3.63,
+          "contrast_vs_black": 5.78,
+          "show_label": true
+        },
+        {
+          "id": "analog-b-500",
+          "step": 500,
+          "hex": "#9145ba",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 5.58,
+          "contrast_vs_black": 3.76,
+          "show_label": true
+        },
+        {
+          "id": "analog-b-600",
+          "step": 600,
+          "hex": "#7a3a9c",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 7.21,
+          "contrast_vs_black": 2.91,
+          "show_label": true
+        },
+        {
+          "id": "analog-b-700",
+          "step": 700,
+          "hex": "#602c7d",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 9.75,
+          "contrast_vs_black": 2.15,
+          "show_label": true
+        },
+        {
+          "id": "analog-b-800",
+          "step": 800,
+          "hex": "#49215f",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 12.6,
+          "contrast_vs_black": 1.67,
+          "show_label": true
+        },
+        {
+          "id": "analog-b-900",
+          "step": 900,
+          "hex": "#351745",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 15.44,
+          "contrast_vs_black": 1.36,
+          "show_label": false
+        },
+        {
+          "id": "analog-b-950",
+          "step": 950,
+          "hex": "#230f2e",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 17.81,
+          "contrast_vs_black": 1.18,
+          "show_label": false
+        }
+      ]
+    },
+    {
+      "id": "complement",
+      "label": "Complement (gold)",
+      "swatches": [
+        {
+          "id": "complement-50",
+          "step": 50,
+          "hex": "#f3f5ef",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 1.1,
+          "contrast_vs_black": 19.12,
+          "show_label": true
+        },
+        {
+          "id": "complement-100",
+          "step": 100,
+          "hex": "#e8ebe0",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 1.21,
+          "contrast_vs_black": 17.39,
+          "show_label": true
+        },
+        {
+          "id": "complement-200",
+          "step": 200,
+          "hex": "#d0d8c0",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 1.47,
+          "contrast_vs_black": 14.27,
+          "show_label": true
+        },
+        {
+          "id": "complement-300",
+          "step": 300,
+          "hex": "#bccc99",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 1.72,
+          "contrast_vs_black": 12.24,
+          "show_label": true
+        },
+        {
+          "id": "complement-400",
+          "step": 400,
+          "hex": "#a5bb77",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 2.11,
+          "contrast_vs_black": 9.97,
+          "show_label": true
+        },
+        {
+          "id": "complement-500",
+          "step": 500,
+          "hex": "#92b44b",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 2.37,
+          "contrast_vs_black": 8.85,
+          "show_label": true
+        },
+        {
+          "id": "complement-600",
+          "step": 600,
+          "hex": "#7b973f",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 3.31,
+          "contrast_vs_black": 6.34,
+          "show_label": true
+        },
+        {
+          "id": "complement-700",
+          "step": 700,
+          "hex": "#617930",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 4.9,
+          "contrast_vs_black": 4.29,
+          "show_label": true
+        },
+        {
+          "id": "complement-800",
+          "step": 800,
+          "hex": "#4a5b24",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 7.47,
+          "contrast_vs_black": 2.81,
+          "show_label": true
+        },
+        {
+          "id": "complement-900",
+          "step": 900,
+          "hex": "#354319",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 10.67,
+          "contrast_vs_black": 1.97,
+          "show_label": false
+        },
+        {
+          "id": "complement-950",
+          "step": 950,
+          "hex": "#242d11",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 14.4,
+          "contrast_vs_black": 1.46,
+          "show_label": false
+        }
+      ]
+    },
+    {
+      "id": "neutrals",
+      "label": "Neutrals (tinted)",
+      "swatches": [
+        {
+          "id": "neutral-50",
+          "step": 50,
+          "hex": "#f2f2f3",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 1.12,
+          "contrast_vs_black": 18.77,
+          "show_label": true
+        },
+        {
+          "id": "neutral-100",
+          "step": 100,
+          "hex": "#e5e5e6",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 1.26,
+          "contrast_vs_black": 16.68,
+          "show_label": true
+        },
+        {
+          "id": "neutral-200",
+          "step": 200,
+          "hex": "#cbcace",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 1.63,
+          "contrast_vs_black": 12.88,
+          "show_label": true
+        },
+        {
+          "id": "neutral-300",
+          "step": 300,
+          "hex": "#b1afb6",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 2.17,
+          "contrast_vs_black": 9.68,
+          "show_label": true
+        },
+        {
+          "id": "neutral-400",
+          "step": 400,
+          "hex": "#98959d",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 2.95,
+          "contrast_vs_black": 7.12,
+          "show_label": true
+        },
+        {
+          "id": "neutral-500",
+          "step": 500,
+          "hex": "#7d7887",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 4.28,
+          "contrast_vs_black": 4.91,
+          "show_label": true
+        },
+        {
+          "id": "neutral-600",
+          "step": 600,
+          "hex": "#696572",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 5.67,
+          "contrast_vs_black": 3.71,
+          "show_label": true
+        },
+        {
+          "id": "neutral-700",
+          "step": 700,
+          "hex": "#524e5a",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 8.09,
+          "contrast_vs_black": 2.6,
+          "show_label": true
+        },
+        {
+          "id": "neutral-800",
+          "step": 800,
+          "hex": "#3e3b44",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 10.97,
+          "contrast_vs_black": 1.91,
+          "show_label": true
+        },
+        {
+          "id": "neutral-900",
+          "step": 900,
+          "hex": "#2d2a32",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 14.11,
+          "contrast_vs_black": 1.49,
+          "show_label": false
+        },
+        {
+          "id": "neutral-950",
+          "step": 950,
+          "hex": "#1e1c21",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 16.89,
+          "contrast_vs_black": 1.24,
+          "show_label": false
+        }
+      ]
+    },
+    {
+      "id": "yellow",
+      "label": "Yellow",
+      "swatches": [
+        {
+          "id": "yellow-50",
+          "step": 50,
+          "hex": "#f7f7ed",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 1.08,
+          "contrast_vs_black": 19.48,
+          "show_label": true
+        },
+        {
+          "id": "yellow-100",
+          "step": 100,
+          "hex": "#efefdc",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 1.16,
+          "contrast_vs_black": 18.05,
+          "show_label": true
+        },
+        {
+          "id": "yellow-200",
+          "step": 200,
+          "hex": "#e0e0b8",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 1.35,
+          "contrast_vs_black": 15.52,
+          "show_label": true
+        },
+        {
+          "id": "yellow-300",
+          "step": 300,
+          "hex": "#dddd88",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 1.42,
+          "contrast_vs_black": 14.77,
+          "show_label": true
+        },
+        {
+          "id": "yellow-400",
+          "step": 400,
+          "hex": "#d2d260",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 1.6,
+          "contrast_vs_black": 13.13,
+          "show_label": true
+        },
+        {
+          "id": "yellow-500",
+          "step": 500,
+          "hex": "#d9d926",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 1.51,
+          "contrast_vs_black": 13.9,
+          "show_label": true
+        },
+        {
+          "id": "yellow-600",
+          "step": 600,
+          "hex": "#b6b620",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 2.16,
+          "contrast_vs_black": 9.7,
+          "show_label": true
+        },
+        {
+          "id": "yellow-700",
+          "step": 700,
+          "hex": "#929216",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 3.31,
+          "contrast_vs_black": 6.35,
+          "show_label": true
+        },
+        {
+          "id": "yellow-800",
+          "step": 800,
+          "hex": "#6f6f11",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 5.31,
+          "contrast_vs_black": 3.96,
+          "show_label": true
+        },
+        {
+          "id": "yellow-900",
+          "step": 900,
+          "hex": "#51510b",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 8.29,
+          "contrast_vs_black": 2.53,
+          "show_label": false
+        },
+        {
+          "id": "yellow-950",
+          "step": 950,
+          "hex": "#363607",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 12.44,
+          "contrast_vs_black": 1.69,
+          "show_label": false
+        }
+      ]
+    },
+    {
+      "id": "red",
+      "label": "Red",
+      "swatches": [
+        {
+          "id": "red-50",
+          "step": 50,
+          "hex": "#f8eded",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 1.15,
+          "contrast_vs_black": 18.33,
+          "show_label": true
+        },
+        {
+          "id": "red-100",
+          "step": 100,
+          "hex": "#f1dada",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 1.33,
+          "contrast_vs_black": 15.78,
+          "show_label": true
+        },
+        {
+          "id": "red-200",
+          "step": 200,
+          "hex": "#e2b6b6",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 1.81,
+          "contrast_vs_black": 11.6,
+          "show_label": true
+        },
+        {
+          "id": "red-300",
+          "step": 300,
+          "hex": "#e38282",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 2.7,
+          "contrast_vs_black": 7.78,
+          "show_label": true
+        },
+        {
+          "id": "red-400",
+          "step": 400,
+          "hex": "#da5858",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 3.81,
+          "contrast_vs_black": 5.52,
+          "show_label": true
+        },
+        {
+          "id": "red-500",
+          "step": 500,
+          "hex": "#e61919",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 4.65,
+          "contrast_vs_black": 4.52,
+          "show_label": true
+        },
+        {
+          "id": "red-600",
+          "step": 600,
+          "hex": "#c11515",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 6.2,
+          "contrast_vs_black": 3.39,
+          "show_label": true
+        },
+        {
+          "id": "red-700",
+          "step": 700,
+          "hex": "#9b0d0d",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 8.55,
+          "contrast_vs_black": 2.46,
+          "show_label": true
+        },
+        {
+          "id": "red-800",
+          "step": 800,
+          "hex": "#750a0a",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 11.64,
+          "contrast_vs_black": 1.8,
+          "show_label": true
+        },
+        {
+          "id": "red-900",
+          "step": 900,
+          "hex": "#560606",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 14.74,
+          "contrast_vs_black": 1.42,
+          "show_label": false
+        },
+        {
+          "id": "red-950",
+          "step": 950,
+          "hex": "#3a0404",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 17.51,
+          "contrast_vs_black": 1.2,
+          "show_label": false
+        }
+      ]
+    },
+    {
+      "id": "grayscale",
+      "label": "Grayscale (white \u2192 black)",
+      "swatches": [
+        {
+          "id": "gray-50",
+          "step": 50,
+          "hex": "#f2f2f2",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 1.12,
+          "contrast_vs_black": 18.76,
+          "show_label": true
+        },
+        {
+          "id": "gray-100",
+          "step": 100,
+          "hex": "#e6e6e6",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 1.25,
+          "contrast_vs_black": 16.83,
+          "show_label": true
+        },
+        {
+          "id": "gray-200",
+          "step": 200,
+          "hex": "#cccccc",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 1.61,
+          "contrast_vs_black": 13.08,
+          "show_label": true
+        },
+        {
+          "id": "gray-300",
+          "step": 300,
+          "hex": "#b2b2b2",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 2.12,
+          "contrast_vs_black": 9.9,
+          "show_label": true
+        },
+        {
+          "id": "gray-400",
+          "step": 400,
+          "hex": "#999999",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 2.85,
+          "contrast_vs_black": 7.37,
+          "show_label": true
+        },
+        {
+          "id": "gray-500",
+          "step": 500,
+          "hex": "#808080",
+          "preferred_text": "#000000",
+          "contrast_vs_white": 3.95,
+          "contrast_vs_black": 5.32,
+          "show_label": true
+        },
+        {
+          "id": "gray-600",
+          "step": 600,
+          "hex": "#6b6b6b",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 5.33,
+          "contrast_vs_black": 3.94,
+          "show_label": true
+        },
+        {
+          "id": "gray-700",
+          "step": 700,
+          "hex": "#545454",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 7.57,
+          "contrast_vs_black": 2.77,
+          "show_label": true
+        },
+        {
+          "id": "gray-800",
+          "step": 800,
+          "hex": "#404040",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 10.37,
+          "contrast_vs_black": 2.03,
+          "show_label": true
+        },
+        {
+          "id": "gray-900",
+          "step": 900,
+          "hex": "#2e2e2e",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 13.58,
+          "contrast_vs_black": 1.55,
+          "show_label": false
+        },
+        {
+          "id": "gray-950",
+          "step": 950,
+          "hex": "#1f1f1f",
+          "preferred_text": "#ffffff",
+          "contrast_vs_white": 16.48,
+          "contrast_vs_black": 1.27,
+          "show_label": false
+        }
+      ]
+    }
+  ]
+}

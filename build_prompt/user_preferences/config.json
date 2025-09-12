@@ -1,0 +1,6 @@
+{
+  "begin_bracket": "###USER_PREFERENCES_START###",
+  "end_bracket": "###USER_PREFERENCES_END###",
+  "content_file": "tone.txt",
+  "rwi_text": "- user_preferences: [###USER_PREFERENCES_START###][###USER_PREFERENCES_END###]: User-specific preferences."
+}

@@ -1,0 +1,4865 @@
+{
+  "queue_index": 0,
+  "queue": [
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0000/chunk_0001.txt",
+      "source_id": "conversation_0000",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0001/chunk_0001.txt",
+      "source_id": "conversation_0001",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0002/chunk_0001.txt",
+      "source_id": "conversation_0002",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0003/chunk_0001.txt",
+      "source_id": "conversation_0003",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0004/chunk_0001.txt",
+      "source_id": "conversation_0004",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0005/chunk_0001.txt",
+      "source_id": "conversation_0005",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0006/chunk_0001.txt",
+      "source_id": "conversation_0006",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0007/chunk_0001.txt",
+      "source_id": "conversation_0007",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0007/chunk_0002.txt",
+      "source_id": "conversation_0007",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0007/chunk_0003.txt",
+      "source_id": "conversation_0007",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0007/chunk_0004.txt",
+      "source_id": "conversation_0007",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0007/chunk_0005.txt",
+      "source_id": "conversation_0007",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0007/chunk_0006.txt",
+      "source_id": "conversation_0007",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0007/chunk_0007.txt",
+      "source_id": "conversation_0007",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0007/chunk_0008.txt",
+      "source_id": "conversation_0007",
+      "chunk_name": "chunk_0008",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0007/chunk_0009.txt",
+      "source_id": "conversation_0007",
+      "chunk_name": "chunk_0009",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0007/chunk_0010.txt",
+      "source_id": "conversation_0007",
+      "chunk_name": "chunk_0010",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0008/chunk_0001.txt",
+      "source_id": "conversation_0008",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0009/chunk_0001.txt",
+      "source_id": "conversation_0009",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0010/chunk_0001.txt",
+      "source_id": "conversation_0010",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0011/chunk_0001.txt",
+      "source_id": "conversation_0011",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0012/chunk_0001.txt",
+      "source_id": "conversation_0012",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0013/chunk_0001.txt",
+      "source_id": "conversation_0013",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0013/chunk_0002.txt",
+      "source_id": "conversation_0013",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0014/chunk_0001.txt",
+      "source_id": "conversation_0014",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0015/chunk_0001.txt",
+      "source_id": "conversation_0015",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0016/chunk_0001.txt",
+      "source_id": "conversation_0016",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0016/chunk_0002.txt",
+      "source_id": "conversation_0016",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0017/chunk_0001.txt",
+      "source_id": "conversation_0017",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0018/chunk_0001.txt",
+      "source_id": "conversation_0018",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0018/chunk_0002.txt",
+      "source_id": "conversation_0018",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0018/chunk_0003.txt",
+      "source_id": "conversation_0018",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0018/chunk_0004.txt",
+      "source_id": "conversation_0018",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0019/chunk_0001.txt",
+      "source_id": "conversation_0019",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0019/chunk_0002.txt",
+      "source_id": "conversation_0019",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0019/chunk_0003.txt",
+      "source_id": "conversation_0019",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0020/chunk_0001.txt",
+      "source_id": "conversation_0020",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0021/chunk_0001.txt",
+      "source_id": "conversation_0021",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0021/chunk_0002.txt",
+      "source_id": "conversation_0021",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0022/chunk_0001.txt",
+      "source_id": "conversation_0022",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0022/chunk_0002.txt",
+      "source_id": "conversation_0022",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0022/chunk_0003.txt",
+      "source_id": "conversation_0022",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0022/chunk_0004.txt",
+      "source_id": "conversation_0022",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0022/chunk_0005.txt",
+      "source_id": "conversation_0022",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0022/chunk_0006.txt",
+      "source_id": "conversation_0022",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0022/chunk_0007.txt",
+      "source_id": "conversation_0022",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0022/chunk_0008.txt",
+      "source_id": "conversation_0022",
+      "chunk_name": "chunk_0008",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0022/chunk_0009.txt",
+      "source_id": "conversation_0022",
+      "chunk_name": "chunk_0009",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0022/chunk_0010.txt",
+      "source_id": "conversation_0022",
+      "chunk_name": "chunk_0010",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0022/chunk_0011.txt",
+      "source_id": "conversation_0022",
+      "chunk_name": "chunk_0011",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0022/chunk_0012.txt",
+      "source_id": "conversation_0022",
+      "chunk_name": "chunk_0012",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0023/chunk_0001.txt",
+      "source_id": "conversation_0023",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0024/chunk_0001.txt",
+      "source_id": "conversation_0024",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0024/chunk_0002.txt",
+      "source_id": "conversation_0024",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0024/chunk_0003.txt",
+      "source_id": "conversation_0024",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0025/chunk_0001.txt",
+      "source_id": "conversation_0025",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0026/chunk_0001.txt",
+      "source_id": "conversation_0026",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0026/chunk_0002.txt",
+      "source_id": "conversation_0026",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0027/chunk_0001.txt",
+      "source_id": "conversation_0027",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0028/chunk_0001.txt",
+      "source_id": "conversation_0028",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0029/chunk_0001.txt",
+      "source_id": "conversation_0029",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0030/chunk_0001.txt",
+      "source_id": "conversation_0030",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0031/chunk_0001.txt",
+      "source_id": "conversation_0031",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0032/chunk_0001.txt",
+      "source_id": "conversation_0032",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0033/chunk_0001.txt",
+      "source_id": "conversation_0033",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0033/chunk_0002.txt",
+      "source_id": "conversation_0033",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0033/chunk_0003.txt",
+      "source_id": "conversation_0033",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0034/chunk_0001.txt",
+      "source_id": "conversation_0034",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0034/chunk_0002.txt",
+      "source_id": "conversation_0034",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0034/chunk_0003.txt",
+      "source_id": "conversation_0034",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0034/chunk_0004.txt",
+      "source_id": "conversation_0034",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0034/chunk_0005.txt",
+      "source_id": "conversation_0034",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0034/chunk_0006.txt",
+      "source_id": "conversation_0034",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0034/chunk_0007.txt",
+      "source_id": "conversation_0034",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0034/chunk_0008.txt",
+      "source_id": "conversation_0034",
+      "chunk_name": "chunk_0008",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0035/chunk_0001.txt",
+      "source_id": "conversation_0035",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0035/chunk_0002.txt",
+      "source_id": "conversation_0035",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0035/chunk_0003.txt",
+      "source_id": "conversation_0035",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0035/chunk_0004.txt",
+      "source_id": "conversation_0035",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0036/chunk_0001.txt",
+      "source_id": "conversation_0036",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0036/chunk_0002.txt",
+      "source_id": "conversation_0036",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0036/chunk_0003.txt",
+      "source_id": "conversation_0036",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0036/chunk_0004.txt",
+      "source_id": "conversation_0036",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0036/chunk_0005.txt",
+      "source_id": "conversation_0036",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0037/chunk_0001.txt",
+      "source_id": "conversation_0037",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0038/chunk_0001.txt",
+      "source_id": "conversation_0038",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0039/chunk_0001.txt",
+      "source_id": "conversation_0039",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0040/chunk_0001.txt",
+      "source_id": "conversation_0040",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0041/chunk_0001.txt",
+      "source_id": "conversation_0041",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0042/chunk_0001.txt",
+      "source_id": "conversation_0042",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0042/chunk_0002.txt",
+      "source_id": "conversation_0042",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0042/chunk_0003.txt",
+      "source_id": "conversation_0042",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0042/chunk_0004.txt",
+      "source_id": "conversation_0042",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0042/chunk_0005.txt",
+      "source_id": "conversation_0042",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0042/chunk_0006.txt",
+      "source_id": "conversation_0042",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0042/chunk_0007.txt",
+      "source_id": "conversation_0042",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0043/chunk_0001.txt",
+      "source_id": "conversation_0043",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0043/chunk_0002.txt",
+      "source_id": "conversation_0043",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0043/chunk_0003.txt",
+      "source_id": "conversation_0043",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0044/chunk_0001.txt",
+      "source_id": "conversation_0044",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0044/chunk_0002.txt",
+      "source_id": "conversation_0044",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0044/chunk_0003.txt",
+      "source_id": "conversation_0044",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0044/chunk_0004.txt",
+      "source_id": "conversation_0044",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0045/chunk_0001.txt",
+      "source_id": "conversation_0045",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0045/chunk_0002.txt",
+      "source_id": "conversation_0045",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0045/chunk_0003.txt",
+      "source_id": "conversation_0045",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0045/chunk_0004.txt",
+      "source_id": "conversation_0045",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0045/chunk_0005.txt",
+      "source_id": "conversation_0045",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0045/chunk_0006.txt",
+      "source_id": "conversation_0045",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0045/chunk_0007.txt",
+      "source_id": "conversation_0045",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0045/chunk_0008.txt",
+      "source_id": "conversation_0045",
+      "chunk_name": "chunk_0008",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0045/chunk_0009.txt",
+      "source_id": "conversation_0045",
+      "chunk_name": "chunk_0009",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0045/chunk_0010.txt",
+      "source_id": "conversation_0045",
+      "chunk_name": "chunk_0010",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0045/chunk_0011.txt",
+      "source_id": "conversation_0045",
+      "chunk_name": "chunk_0011",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0045/chunk_0012.txt",
+      "source_id": "conversation_0045",
+      "chunk_name": "chunk_0012",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0045/chunk_0013.txt",
+      "source_id": "conversation_0045",
+      "chunk_name": "chunk_0013",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0045/chunk_0014.txt",
+      "source_id": "conversation_0045",
+      "chunk_name": "chunk_0014",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0045/chunk_0015.txt",
+      "source_id": "conversation_0045",
+      "chunk_name": "chunk_0015",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0045/chunk_0016.txt",
+      "source_id": "conversation_0045",
+      "chunk_name": "chunk_0016",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0045/chunk_0017.txt",
+      "source_id": "conversation_0045",
+      "chunk_name": "chunk_0017",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0045/chunk_0018.txt",
+      "source_id": "conversation_0045",
+      "chunk_name": "chunk_0018",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0045/chunk_0019.txt",
+      "source_id": "conversation_0045",
+      "chunk_name": "chunk_0019",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0045/chunk_0020.txt",
+      "source_id": "conversation_0045",
+      "chunk_name": "chunk_0020",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0046/chunk_0001.txt",
+      "source_id": "conversation_0046",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0046/chunk_0002.txt",
+      "source_id": "conversation_0046",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0046/chunk_0003.txt",
+      "source_id": "conversation_0046",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0046/chunk_0004.txt",
+      "source_id": "conversation_0046",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0046/chunk_0005.txt",
+      "source_id": "conversation_0046",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0046/chunk_0006.txt",
+      "source_id": "conversation_0046",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0046/chunk_0007.txt",
+      "source_id": "conversation_0046",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0047/chunk_0001.txt",
+      "source_id": "conversation_0047",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0047/chunk_0002.txt",
+      "source_id": "conversation_0047",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0047/chunk_0003.txt",
+      "source_id": "conversation_0047",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0047/chunk_0004.txt",
+      "source_id": "conversation_0047",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0048/chunk_0001.txt",
+      "source_id": "conversation_0048",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0048/chunk_0002.txt",
+      "source_id": "conversation_0048",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0048/chunk_0003.txt",
+      "source_id": "conversation_0048",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0048/chunk_0004.txt",
+      "source_id": "conversation_0048",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0048/chunk_0005.txt",
+      "source_id": "conversation_0048",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0048/chunk_0006.txt",
+      "source_id": "conversation_0048",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0048/chunk_0007.txt",
+      "source_id": "conversation_0048",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0048/chunk_0008.txt",
+      "source_id": "conversation_0048",
+      "chunk_name": "chunk_0008",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0048/chunk_0009.txt",
+      "source_id": "conversation_0048",
+      "chunk_name": "chunk_0009",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0048/chunk_0010.txt",
+      "source_id": "conversation_0048",
+      "chunk_name": "chunk_0010",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0048/chunk_0011.txt",
+      "source_id": "conversation_0048",
+      "chunk_name": "chunk_0011",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0048/chunk_0012.txt",
+      "source_id": "conversation_0048",
+      "chunk_name": "chunk_0012",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0048/chunk_0013.txt",
+      "source_id": "conversation_0048",
+      "chunk_name": "chunk_0013",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0048/chunk_0014.txt",
+      "source_id": "conversation_0048",
+      "chunk_name": "chunk_0014",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0048/chunk_0015.txt",
+      "source_id": "conversation_0048",
+      "chunk_name": "chunk_0015",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0048/chunk_0016.txt",
+      "source_id": "conversation_0048",
+      "chunk_name": "chunk_0016",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0048/chunk_0017.txt",
+      "source_id": "conversation_0048",
+      "chunk_name": "chunk_0017",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0048/chunk_0018.txt",
+      "source_id": "conversation_0048",
+      "chunk_name": "chunk_0018",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0048/chunk_0019.txt",
+      "source_id": "conversation_0048",
+      "chunk_name": "chunk_0019",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0049/chunk_0001.txt",
+      "source_id": "conversation_0049",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0050/chunk_0001.txt",
+      "source_id": "conversation_0050",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0051/chunk_0001.txt",
+      "source_id": "conversation_0051",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0051/chunk_0002.txt",
+      "source_id": "conversation_0051",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0051/chunk_0003.txt",
+      "source_id": "conversation_0051",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0051/chunk_0004.txt",
+      "source_id": "conversation_0051",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0051/chunk_0005.txt",
+      "source_id": "conversation_0051",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0051/chunk_0006.txt",
+      "source_id": "conversation_0051",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0051/chunk_0007.txt",
+      "source_id": "conversation_0051",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0051/chunk_0008.txt",
+      "source_id": "conversation_0051",
+      "chunk_name": "chunk_0008",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0051/chunk_0009.txt",
+      "source_id": "conversation_0051",
+      "chunk_name": "chunk_0009",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0051/chunk_0010.txt",
+      "source_id": "conversation_0051",
+      "chunk_name": "chunk_0010",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0051/chunk_0011.txt",
+      "source_id": "conversation_0051",
+      "chunk_name": "chunk_0011",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0051/chunk_0012.txt",
+      "source_id": "conversation_0051",
+      "chunk_name": "chunk_0012",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0051/chunk_0013.txt",
+      "source_id": "conversation_0051",
+      "chunk_name": "chunk_0013",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0051/chunk_0014.txt",
+      "source_id": "conversation_0051",
+      "chunk_name": "chunk_0014",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0051/chunk_0015.txt",
+      "source_id": "conversation_0051",
+      "chunk_name": "chunk_0015",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0051/chunk_0016.txt",
+      "source_id": "conversation_0051",
+      "chunk_name": "chunk_0016",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0051/chunk_0017.txt",
+      "source_id": "conversation_0051",
+      "chunk_name": "chunk_0017",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0051/chunk_0018.txt",
+      "source_id": "conversation_0051",
+      "chunk_name": "chunk_0018",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0051/chunk_0019.txt",
+      "source_id": "conversation_0051",
+      "chunk_name": "chunk_0019",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0052/chunk_0001.txt",
+      "source_id": "conversation_0052",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0053/chunk_0001.txt",
+      "source_id": "conversation_0053",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0054/chunk_0001.txt",
+      "source_id": "conversation_0054",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0054/chunk_0002.txt",
+      "source_id": "conversation_0054",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0054/chunk_0003.txt",
+      "source_id": "conversation_0054",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0054/chunk_0004.txt",
+      "source_id": "conversation_0054",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0054/chunk_0005.txt",
+      "source_id": "conversation_0054",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0054/chunk_0006.txt",
+      "source_id": "conversation_0054",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0054/chunk_0007.txt",
+      "source_id": "conversation_0054",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0054/chunk_0008.txt",
+      "source_id": "conversation_0054",
+      "chunk_name": "chunk_0008",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0054/chunk_0009.txt",
+      "source_id": "conversation_0054",
+      "chunk_name": "chunk_0009",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0054/chunk_0010.txt",
+      "source_id": "conversation_0054",
+      "chunk_name": "chunk_0010",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0054/chunk_0011.txt",
+      "source_id": "conversation_0054",
+      "chunk_name": "chunk_0011",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0054/chunk_0012.txt",
+      "source_id": "conversation_0054",
+      "chunk_name": "chunk_0012",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0054/chunk_0013.txt",
+      "source_id": "conversation_0054",
+      "chunk_name": "chunk_0013",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0054/chunk_0014.txt",
+      "source_id": "conversation_0054",
+      "chunk_name": "chunk_0014",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0054/chunk_0015.txt",
+      "source_id": "conversation_0054",
+      "chunk_name": "chunk_0015",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0055/chunk_0001.txt",
+      "source_id": "conversation_0055",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0056/chunk_0001.txt",
+      "source_id": "conversation_0056",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0057/chunk_0001.txt",
+      "source_id": "conversation_0057",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0058/chunk_0001.txt",
+      "source_id": "conversation_0058",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0059/chunk_0001.txt",
+      "source_id": "conversation_0059",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0059/chunk_0002.txt",
+      "source_id": "conversation_0059",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0059/chunk_0003.txt",
+      "source_id": "conversation_0059",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0059/chunk_0004.txt",
+      "source_id": "conversation_0059",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0059/chunk_0005.txt",
+      "source_id": "conversation_0059",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0059/chunk_0006.txt",
+      "source_id": "conversation_0059",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0060/chunk_0001.txt",
+      "source_id": "conversation_0060",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0061/chunk_0001.txt",
+      "source_id": "conversation_0061",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0061/chunk_0002.txt",
+      "source_id": "conversation_0061",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0061/chunk_0003.txt",
+      "source_id": "conversation_0061",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0061/chunk_0004.txt",
+      "source_id": "conversation_0061",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0061/chunk_0005.txt",
+      "source_id": "conversation_0061",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0061/chunk_0006.txt",
+      "source_id": "conversation_0061",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0062/chunk_0001.txt",
+      "source_id": "conversation_0062",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0062/chunk_0002.txt",
+      "source_id": "conversation_0062",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0062/chunk_0003.txt",
+      "source_id": "conversation_0062",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0062/chunk_0004.txt",
+      "source_id": "conversation_0062",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0062/chunk_0005.txt",
+      "source_id": "conversation_0062",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0062/chunk_0006.txt",
+      "source_id": "conversation_0062",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0062/chunk_0007.txt",
+      "source_id": "conversation_0062",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0063/chunk_0001.txt",
+      "source_id": "conversation_0063",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0063/chunk_0002.txt",
+      "source_id": "conversation_0063",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0063/chunk_0003.txt",
+      "source_id": "conversation_0063",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0063/chunk_0004.txt",
+      "source_id": "conversation_0063",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0064/chunk_0001.txt",
+      "source_id": "conversation_0064",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0065/chunk_0001.txt",
+      "source_id": "conversation_0065",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0066/chunk_0001.txt",
+      "source_id": "conversation_0066",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0066/chunk_0002.txt",
+      "source_id": "conversation_0066",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0067/chunk_0001.txt",
+      "source_id": "conversation_0067",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0067/chunk_0002.txt",
+      "source_id": "conversation_0067",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0068/chunk_0001.txt",
+      "source_id": "conversation_0068",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0068/chunk_0002.txt",
+      "source_id": "conversation_0068",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0068/chunk_0003.txt",
+      "source_id": "conversation_0068",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0069/chunk_0001.txt",
+      "source_id": "conversation_0069",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0070/chunk_0001.txt",
+      "source_id": "conversation_0070",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0070/chunk_0002.txt",
+      "source_id": "conversation_0070",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0070/chunk_0003.txt",
+      "source_id": "conversation_0070",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0070/chunk_0004.txt",
+      "source_id": "conversation_0070",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0071/chunk_0001.txt",
+      "source_id": "conversation_0071",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0071/chunk_0002.txt",
+      "source_id": "conversation_0071",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0072/chunk_0001.txt",
+      "source_id": "conversation_0072",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0072/chunk_0002.txt",
+      "source_id": "conversation_0072",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0072/chunk_0003.txt",
+      "source_id": "conversation_0072",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0072/chunk_0004.txt",
+      "source_id": "conversation_0072",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0072/chunk_0005.txt",
+      "source_id": "conversation_0072",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0072/chunk_0006.txt",
+      "source_id": "conversation_0072",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0072/chunk_0007.txt",
+      "source_id": "conversation_0072",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0072/chunk_0008.txt",
+      "source_id": "conversation_0072",
+      "chunk_name": "chunk_0008",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0072/chunk_0009.txt",
+      "source_id": "conversation_0072",
+      "chunk_name": "chunk_0009",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0072/chunk_0010.txt",
+      "source_id": "conversation_0072",
+      "chunk_name": "chunk_0010",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0072/chunk_0011.txt",
+      "source_id": "conversation_0072",
+      "chunk_name": "chunk_0011",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0072/chunk_0012.txt",
+      "source_id": "conversation_0072",
+      "chunk_name": "chunk_0012",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0072/chunk_0013.txt",
+      "source_id": "conversation_0072",
+      "chunk_name": "chunk_0013",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0072/chunk_0014.txt",
+      "source_id": "conversation_0072",
+      "chunk_name": "chunk_0014",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0073/chunk_0001.txt",
+      "source_id": "conversation_0073",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0073/chunk_0002.txt",
+      "source_id": "conversation_0073",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0073/chunk_0003.txt",
+      "source_id": "conversation_0073",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0073/chunk_0004.txt",
+      "source_id": "conversation_0073",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0073/chunk_0005.txt",
+      "source_id": "conversation_0073",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0073/chunk_0006.txt",
+      "source_id": "conversation_0073",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0073/chunk_0007.txt",
+      "source_id": "conversation_0073",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0073/chunk_0008.txt",
+      "source_id": "conversation_0073",
+      "chunk_name": "chunk_0008",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0073/chunk_0009.txt",
+      "source_id": "conversation_0073",
+      "chunk_name": "chunk_0009",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0073/chunk_0010.txt",
+      "source_id": "conversation_0073",
+      "chunk_name": "chunk_0010",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0073/chunk_0011.txt",
+      "source_id": "conversation_0073",
+      "chunk_name": "chunk_0011",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0073/chunk_0012.txt",
+      "source_id": "conversation_0073",
+      "chunk_name": "chunk_0012",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0073/chunk_0013.txt",
+      "source_id": "conversation_0073",
+      "chunk_name": "chunk_0013",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0073/chunk_0014.txt",
+      "source_id": "conversation_0073",
+      "chunk_name": "chunk_0014",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0073/chunk_0015.txt",
+      "source_id": "conversation_0073",
+      "chunk_name": "chunk_0015",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0073/chunk_0016.txt",
+      "source_id": "conversation_0073",
+      "chunk_name": "chunk_0016",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0073/chunk_0017.txt",
+      "source_id": "conversation_0073",
+      "chunk_name": "chunk_0017",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0074/chunk_0001.txt",
+      "source_id": "conversation_0074",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0074/chunk_0002.txt",
+      "source_id": "conversation_0074",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0074/chunk_0003.txt",
+      "source_id": "conversation_0074",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0074/chunk_0004.txt",
+      "source_id": "conversation_0074",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0075/chunk_0001.txt",
+      "source_id": "conversation_0075",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0075/chunk_0002.txt",
+      "source_id": "conversation_0075",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0075/chunk_0003.txt",
+      "source_id": "conversation_0075",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0075/chunk_0004.txt",
+      "source_id": "conversation_0075",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0075/chunk_0005.txt",
+      "source_id": "conversation_0075",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0075/chunk_0006.txt",
+      "source_id": "conversation_0075",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0075/chunk_0007.txt",
+      "source_id": "conversation_0075",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0075/chunk_0008.txt",
+      "source_id": "conversation_0075",
+      "chunk_name": "chunk_0008",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0075/chunk_0009.txt",
+      "source_id": "conversation_0075",
+      "chunk_name": "chunk_0009",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0075/chunk_0010.txt",
+      "source_id": "conversation_0075",
+      "chunk_name": "chunk_0010",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0076/chunk_0001.txt",
+      "source_id": "conversation_0076",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0077/chunk_0001.txt",
+      "source_id": "conversation_0077",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0077/chunk_0002.txt",
+      "source_id": "conversation_0077",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0077/chunk_0003.txt",
+      "source_id": "conversation_0077",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0077/chunk_0004.txt",
+      "source_id": "conversation_0077",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0077/chunk_0005.txt",
+      "source_id": "conversation_0077",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0078/chunk_0001.txt",
+      "source_id": "conversation_0078",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0079/chunk_0001.txt",
+      "source_id": "conversation_0079",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0080/chunk_0001.txt",
+      "source_id": "conversation_0080",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0081/chunk_0001.txt",
+      "source_id": "conversation_0081",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0081/chunk_0002.txt",
+      "source_id": "conversation_0081",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0081/chunk_0003.txt",
+      "source_id": "conversation_0081",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0081/chunk_0004.txt",
+      "source_id": "conversation_0081",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0082/chunk_0001.txt",
+      "source_id": "conversation_0082",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0083/chunk_0001.txt",
+      "source_id": "conversation_0083",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0084/chunk_0001.txt",
+      "source_id": "conversation_0084",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0085/chunk_0001.txt",
+      "source_id": "conversation_0085",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0086/chunk_0001.txt",
+      "source_id": "conversation_0086",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0087/chunk_0001.txt",
+      "source_id": "conversation_0087",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0088/chunk_0001.txt",
+      "source_id": "conversation_0088",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0089/chunk_0001.txt",
+      "source_id": "conversation_0089",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0090/chunk_0001.txt",
+      "source_id": "conversation_0090",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0091/chunk_0001.txt",
+      "source_id": "conversation_0091",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0092/chunk_0001.txt",
+      "source_id": "conversation_0092",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0093/chunk_0001.txt",
+      "source_id": "conversation_0093",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0094/chunk_0001.txt",
+      "source_id": "conversation_0094",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0095/chunk_0001.txt",
+      "source_id": "conversation_0095",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0096/chunk_0001.txt",
+      "source_id": "conversation_0096",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0097/chunk_0001.txt",
+      "source_id": "conversation_0097",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0097/chunk_0002.txt",
+      "source_id": "conversation_0097",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0097/chunk_0003.txt",
+      "source_id": "conversation_0097",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0097/chunk_0004.txt",
+      "source_id": "conversation_0097",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0097/chunk_0005.txt",
+      "source_id": "conversation_0097",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0098/chunk_0001.txt",
+      "source_id": "conversation_0098",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0098/chunk_0002.txt",
+      "source_id": "conversation_0098",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0099/chunk_0001.txt",
+      "source_id": "conversation_0099",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0100/chunk_0001.txt",
+      "source_id": "conversation_0100",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0100/chunk_0002.txt",
+      "source_id": "conversation_0100",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0101/chunk_0001.txt",
+      "source_id": "conversation_0101",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0101/chunk_0002.txt",
+      "source_id": "conversation_0101",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0101/chunk_0003.txt",
+      "source_id": "conversation_0101",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0101/chunk_0004.txt",
+      "source_id": "conversation_0101",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0102/chunk_0001.txt",
+      "source_id": "conversation_0102",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0102/chunk_0002.txt",
+      "source_id": "conversation_0102",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0102/chunk_0003.txt",
+      "source_id": "conversation_0102",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0103/chunk_0001.txt",
+      "source_id": "conversation_0103",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0104/chunk_0001.txt",
+      "source_id": "conversation_0104",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0104/chunk_0002.txt",
+      "source_id": "conversation_0104",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0104/chunk_0003.txt",
+      "source_id": "conversation_0104",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0105/chunk_0001.txt",
+      "source_id": "conversation_0105",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0105/chunk_0002.txt",
+      "source_id": "conversation_0105",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0105/chunk_0003.txt",
+      "source_id": "conversation_0105",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0106/chunk_0001.txt",
+      "source_id": "conversation_0106",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0107/chunk_0001.txt",
+      "source_id": "conversation_0107",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0107/chunk_0002.txt",
+      "source_id": "conversation_0107",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0107/chunk_0003.txt",
+      "source_id": "conversation_0107",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0107/chunk_0004.txt",
+      "source_id": "conversation_0107",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0107/chunk_0005.txt",
+      "source_id": "conversation_0107",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0108/chunk_0001.txt",
+      "source_id": "conversation_0108",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0108/chunk_0002.txt",
+      "source_id": "conversation_0108",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0108/chunk_0003.txt",
+      "source_id": "conversation_0108",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0108/chunk_0004.txt",
+      "source_id": "conversation_0108",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0108/chunk_0005.txt",
+      "source_id": "conversation_0108",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0108/chunk_0006.txt",
+      "source_id": "conversation_0108",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0108/chunk_0007.txt",
+      "source_id": "conversation_0108",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0108/chunk_0008.txt",
+      "source_id": "conversation_0108",
+      "chunk_name": "chunk_0008",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0108/chunk_0009.txt",
+      "source_id": "conversation_0108",
+      "chunk_name": "chunk_0009",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0109/chunk_0001.txt",
+      "source_id": "conversation_0109",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0110/chunk_0001.txt",
+      "source_id": "conversation_0110",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0111/chunk_0001.txt",
+      "source_id": "conversation_0111",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0111/chunk_0002.txt",
+      "source_id": "conversation_0111",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0111/chunk_0003.txt",
+      "source_id": "conversation_0111",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0111/chunk_0004.txt",
+      "source_id": "conversation_0111",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0111/chunk_0005.txt",
+      "source_id": "conversation_0111",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0112/chunk_0001.txt",
+      "source_id": "conversation_0112",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0112/chunk_0002.txt",
+      "source_id": "conversation_0112",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0112/chunk_0003.txt",
+      "source_id": "conversation_0112",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0112/chunk_0004.txt",
+      "source_id": "conversation_0112",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0112/chunk_0005.txt",
+      "source_id": "conversation_0112",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0113/chunk_0001.txt",
+      "source_id": "conversation_0113",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0114/chunk_0001.txt",
+      "source_id": "conversation_0114",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0114/chunk_0002.txt",
+      "source_id": "conversation_0114",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0114/chunk_0003.txt",
+      "source_id": "conversation_0114",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0114/chunk_0004.txt",
+      "source_id": "conversation_0114",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0114/chunk_0005.txt",
+      "source_id": "conversation_0114",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0114/chunk_0006.txt",
+      "source_id": "conversation_0114",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0114/chunk_0007.txt",
+      "source_id": "conversation_0114",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0114/chunk_0008.txt",
+      "source_id": "conversation_0114",
+      "chunk_name": "chunk_0008",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0115/chunk_0001.txt",
+      "source_id": "conversation_0115",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0116/chunk_0001.txt",
+      "source_id": "conversation_0116",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0116/chunk_0002.txt",
+      "source_id": "conversation_0116",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0116/chunk_0003.txt",
+      "source_id": "conversation_0116",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0116/chunk_0004.txt",
+      "source_id": "conversation_0116",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0116/chunk_0005.txt",
+      "source_id": "conversation_0116",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0117/chunk_0001.txt",
+      "source_id": "conversation_0117",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0117/chunk_0002.txt",
+      "source_id": "conversation_0117",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0117/chunk_0003.txt",
+      "source_id": "conversation_0117",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0117/chunk_0004.txt",
+      "source_id": "conversation_0117",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0117/chunk_0005.txt",
+      "source_id": "conversation_0117",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0118/chunk_0001.txt",
+      "source_id": "conversation_0118",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0118/chunk_0002.txt",
+      "source_id": "conversation_0118",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0118/chunk_0003.txt",
+      "source_id": "conversation_0118",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0118/chunk_0004.txt",
+      "source_id": "conversation_0118",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0118/chunk_0005.txt",
+      "source_id": "conversation_0118",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0118/chunk_0006.txt",
+      "source_id": "conversation_0118",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0118/chunk_0007.txt",
+      "source_id": "conversation_0118",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0118/chunk_0008.txt",
+      "source_id": "conversation_0118",
+      "chunk_name": "chunk_0008",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0118/chunk_0009.txt",
+      "source_id": "conversation_0118",
+      "chunk_name": "chunk_0009",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0118/chunk_0010.txt",
+      "source_id": "conversation_0118",
+      "chunk_name": "chunk_0010",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0118/chunk_0011.txt",
+      "source_id": "conversation_0118",
+      "chunk_name": "chunk_0011",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0118/chunk_0012.txt",
+      "source_id": "conversation_0118",
+      "chunk_name": "chunk_0012",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0119/chunk_0001.txt",
+      "source_id": "conversation_0119",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0119/chunk_0002.txt",
+      "source_id": "conversation_0119",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0120/chunk_0001.txt",
+      "source_id": "conversation_0120",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0121/chunk_0001.txt",
+      "source_id": "conversation_0121",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0121/chunk_0002.txt",
+      "source_id": "conversation_0121",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0121/chunk_0003.txt",
+      "source_id": "conversation_0121",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0121/chunk_0004.txt",
+      "source_id": "conversation_0121",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0121/chunk_0005.txt",
+      "source_id": "conversation_0121",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0121/chunk_0006.txt",
+      "source_id": "conversation_0121",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0121/chunk_0007.txt",
+      "source_id": "conversation_0121",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0121/chunk_0008.txt",
+      "source_id": "conversation_0121",
+      "chunk_name": "chunk_0008",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0121/chunk_0009.txt",
+      "source_id": "conversation_0121",
+      "chunk_name": "chunk_0009",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0122/chunk_0001.txt",
+      "source_id": "conversation_0122",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0123/chunk_0001.txt",
+      "source_id": "conversation_0123",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0123/chunk_0002.txt",
+      "source_id": "conversation_0123",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0123/chunk_0003.txt",
+      "source_id": "conversation_0123",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0123/chunk_0004.txt",
+      "source_id": "conversation_0123",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0123/chunk_0005.txt",
+      "source_id": "conversation_0123",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0123/chunk_0006.txt",
+      "source_id": "conversation_0123",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0123/chunk_0007.txt",
+      "source_id": "conversation_0123",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0123/chunk_0008.txt",
+      "source_id": "conversation_0123",
+      "chunk_name": "chunk_0008",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0123/chunk_0009.txt",
+      "source_id": "conversation_0123",
+      "chunk_name": "chunk_0009",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0123/chunk_0010.txt",
+      "source_id": "conversation_0123",
+      "chunk_name": "chunk_0010",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0123/chunk_0011.txt",
+      "source_id": "conversation_0123",
+      "chunk_name": "chunk_0011",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0124/chunk_0001.txt",
+      "source_id": "conversation_0124",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0125/chunk_0001.txt",
+      "source_id": "conversation_0125",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0125/chunk_0002.txt",
+      "source_id": "conversation_0125",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0125/chunk_0003.txt",
+      "source_id": "conversation_0125",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0125/chunk_0004.txt",
+      "source_id": "conversation_0125",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0125/chunk_0005.txt",
+      "source_id": "conversation_0125",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0126/chunk_0001.txt",
+      "source_id": "conversation_0126",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0126/chunk_0002.txt",
+      "source_id": "conversation_0126",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0126/chunk_0003.txt",
+      "source_id": "conversation_0126",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0126/chunk_0004.txt",
+      "source_id": "conversation_0126",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0126/chunk_0005.txt",
+      "source_id": "conversation_0126",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0126/chunk_0006.txt",
+      "source_id": "conversation_0126",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0126/chunk_0007.txt",
+      "source_id": "conversation_0126",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0126/chunk_0008.txt",
+      "source_id": "conversation_0126",
+      "chunk_name": "chunk_0008",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0126/chunk_0009.txt",
+      "source_id": "conversation_0126",
+      "chunk_name": "chunk_0009",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0126/chunk_0010.txt",
+      "source_id": "conversation_0126",
+      "chunk_name": "chunk_0010",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0126/chunk_0011.txt",
+      "source_id": "conversation_0126",
+      "chunk_name": "chunk_0011",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0127/chunk_0001.txt",
+      "source_id": "conversation_0127",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0128/chunk_0001.txt",
+      "source_id": "conversation_0128",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0128/chunk_0002.txt",
+      "source_id": "conversation_0128",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0128/chunk_0003.txt",
+      "source_id": "conversation_0128",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0128/chunk_0004.txt",
+      "source_id": "conversation_0128",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0128/chunk_0005.txt",
+      "source_id": "conversation_0128",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0128/chunk_0006.txt",
+      "source_id": "conversation_0128",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0128/chunk_0007.txt",
+      "source_id": "conversation_0128",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0129/chunk_0001.txt",
+      "source_id": "conversation_0129",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0129/chunk_0002.txt",
+      "source_id": "conversation_0129",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0129/chunk_0003.txt",
+      "source_id": "conversation_0129",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0129/chunk_0004.txt",
+      "source_id": "conversation_0129",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0129/chunk_0005.txt",
+      "source_id": "conversation_0129",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0129/chunk_0006.txt",
+      "source_id": "conversation_0129",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0129/chunk_0007.txt",
+      "source_id": "conversation_0129",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0129/chunk_0008.txt",
+      "source_id": "conversation_0129",
+      "chunk_name": "chunk_0008",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0129/chunk_0009.txt",
+      "source_id": "conversation_0129",
+      "chunk_name": "chunk_0009",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0129/chunk_0010.txt",
+      "source_id": "conversation_0129",
+      "chunk_name": "chunk_0010",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0129/chunk_0011.txt",
+      "source_id": "conversation_0129",
+      "chunk_name": "chunk_0011",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0130/chunk_0001.txt",
+      "source_id": "conversation_0130",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0130/chunk_0002.txt",
+      "source_id": "conversation_0130",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0131/chunk_0001.txt",
+      "source_id": "conversation_0131",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0132/chunk_0001.txt",
+      "source_id": "conversation_0132",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0132/chunk_0002.txt",
+      "source_id": "conversation_0132",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0132/chunk_0003.txt",
+      "source_id": "conversation_0132",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0132/chunk_0004.txt",
+      "source_id": "conversation_0132",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0132/chunk_0005.txt",
+      "source_id": "conversation_0132",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0132/chunk_0006.txt",
+      "source_id": "conversation_0132",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0132/chunk_0007.txt",
+      "source_id": "conversation_0132",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0132/chunk_0008.txt",
+      "source_id": "conversation_0132",
+      "chunk_name": "chunk_0008",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0132/chunk_0009.txt",
+      "source_id": "conversation_0132",
+      "chunk_name": "chunk_0009",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0133/chunk_0001.txt",
+      "source_id": "conversation_0133",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0133/chunk_0002.txt",
+      "source_id": "conversation_0133",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0133/chunk_0003.txt",
+      "source_id": "conversation_0133",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0133/chunk_0004.txt",
+      "source_id": "conversation_0133",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0133/chunk_0005.txt",
+      "source_id": "conversation_0133",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0133/chunk_0006.txt",
+      "source_id": "conversation_0133",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0133/chunk_0007.txt",
+      "source_id": "conversation_0133",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0133/chunk_0008.txt",
+      "source_id": "conversation_0133",
+      "chunk_name": "chunk_0008",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0134/chunk_0001.txt",
+      "source_id": "conversation_0134",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0135/chunk_0001.txt",
+      "source_id": "conversation_0135",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0135/chunk_0002.txt",
+      "source_id": "conversation_0135",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0135/chunk_0003.txt",
+      "source_id": "conversation_0135",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0135/chunk_0004.txt",
+      "source_id": "conversation_0135",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0135/chunk_0005.txt",
+      "source_id": "conversation_0135",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0135/chunk_0006.txt",
+      "source_id": "conversation_0135",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0136/chunk_0001.txt",
+      "source_id": "conversation_0136",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0137/chunk_0001.txt",
+      "source_id": "conversation_0137",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0137/chunk_0002.txt",
+      "source_id": "conversation_0137",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0137/chunk_0003.txt",
+      "source_id": "conversation_0137",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0137/chunk_0004.txt",
+      "source_id": "conversation_0137",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0137/chunk_0005.txt",
+      "source_id": "conversation_0137",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0137/chunk_0006.txt",
+      "source_id": "conversation_0137",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0137/chunk_0007.txt",
+      "source_id": "conversation_0137",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0137/chunk_0008.txt",
+      "source_id": "conversation_0137",
+      "chunk_name": "chunk_0008",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0137/chunk_0009.txt",
+      "source_id": "conversation_0137",
+      "chunk_name": "chunk_0009",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0137/chunk_0010.txt",
+      "source_id": "conversation_0137",
+      "chunk_name": "chunk_0010",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0137/chunk_0011.txt",
+      "source_id": "conversation_0137",
+      "chunk_name": "chunk_0011",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0137/chunk_0012.txt",
+      "source_id": "conversation_0137",
+      "chunk_name": "chunk_0012",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0137/chunk_0013.txt",
+      "source_id": "conversation_0137",
+      "chunk_name": "chunk_0013",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0137/chunk_0014.txt",
+      "source_id": "conversation_0137",
+      "chunk_name": "chunk_0014",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0137/chunk_0015.txt",
+      "source_id": "conversation_0137",
+      "chunk_name": "chunk_0015",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0137/chunk_0016.txt",
+      "source_id": "conversation_0137",
+      "chunk_name": "chunk_0016",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0137/chunk_0017.txt",
+      "source_id": "conversation_0137",
+      "chunk_name": "chunk_0017",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0137/chunk_0018.txt",
+      "source_id": "conversation_0137",
+      "chunk_name": "chunk_0018",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0137/chunk_0019.txt",
+      "source_id": "conversation_0137",
+      "chunk_name": "chunk_0019",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0137/chunk_0020.txt",
+      "source_id": "conversation_0137",
+      "chunk_name": "chunk_0020",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0137/chunk_0021.txt",
+      "source_id": "conversation_0137",
+      "chunk_name": "chunk_0021",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0138/chunk_0001.txt",
+      "source_id": "conversation_0138",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0139/chunk_0001.txt",
+      "source_id": "conversation_0139",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0140/chunk_0001.txt",
+      "source_id": "conversation_0140",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0141/chunk_0001.txt",
+      "source_id": "conversation_0141",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0142/chunk_0001.txt",
+      "source_id": "conversation_0142",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0142/chunk_0002.txt",
+      "source_id": "conversation_0142",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0142/chunk_0003.txt",
+      "source_id": "conversation_0142",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0142/chunk_0004.txt",
+      "source_id": "conversation_0142",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0143/chunk_0001.txt",
+      "source_id": "conversation_0143",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0143/chunk_0002.txt",
+      "source_id": "conversation_0143",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0143/chunk_0003.txt",
+      "source_id": "conversation_0143",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0143/chunk_0004.txt",
+      "source_id": "conversation_0143",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0143/chunk_0005.txt",
+      "source_id": "conversation_0143",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0143/chunk_0006.txt",
+      "source_id": "conversation_0143",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0143/chunk_0007.txt",
+      "source_id": "conversation_0143",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0143/chunk_0008.txt",
+      "source_id": "conversation_0143",
+      "chunk_name": "chunk_0008",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0144/chunk_0001.txt",
+      "source_id": "conversation_0144",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0145/chunk_0001.txt",
+      "source_id": "conversation_0145",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0145/chunk_0002.txt",
+      "source_id": "conversation_0145",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0145/chunk_0003.txt",
+      "source_id": "conversation_0145",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0145/chunk_0004.txt",
+      "source_id": "conversation_0145",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0145/chunk_0005.txt",
+      "source_id": "conversation_0145",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0145/chunk_0006.txt",
+      "source_id": "conversation_0145",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0145/chunk_0007.txt",
+      "source_id": "conversation_0145",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0145/chunk_0008.txt",
+      "source_id": "conversation_0145",
+      "chunk_name": "chunk_0008",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0145/chunk_0009.txt",
+      "source_id": "conversation_0145",
+      "chunk_name": "chunk_0009",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0146/chunk_0001.txt",
+      "source_id": "conversation_0146",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0147/chunk_0001.txt",
+      "source_id": "conversation_0147",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0148/chunk_0001.txt",
+      "source_id": "conversation_0148",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0148/chunk_0002.txt",
+      "source_id": "conversation_0148",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0148/chunk_0003.txt",
+      "source_id": "conversation_0148",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0148/chunk_0004.txt",
+      "source_id": "conversation_0148",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0148/chunk_0005.txt",
+      "source_id": "conversation_0148",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0149/chunk_0001.txt",
+      "source_id": "conversation_0149",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0149/chunk_0002.txt",
+      "source_id": "conversation_0149",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0149/chunk_0003.txt",
+      "source_id": "conversation_0149",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0149/chunk_0004.txt",
+      "source_id": "conversation_0149",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0149/chunk_0005.txt",
+      "source_id": "conversation_0149",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0149/chunk_0006.txt",
+      "source_id": "conversation_0149",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0149/chunk_0007.txt",
+      "source_id": "conversation_0149",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0149/chunk_0008.txt",
+      "source_id": "conversation_0149",
+      "chunk_name": "chunk_0008",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0149/chunk_0009.txt",
+      "source_id": "conversation_0149",
+      "chunk_name": "chunk_0009",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0150/chunk_0001.txt",
+      "source_id": "conversation_0150",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0151/chunk_0001.txt",
+      "source_id": "conversation_0151",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0152/chunk_0001.txt",
+      "source_id": "conversation_0152",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0153/chunk_0001.txt",
+      "source_id": "conversation_0153",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0153/chunk_0002.txt",
+      "source_id": "conversation_0153",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0153/chunk_0003.txt",
+      "source_id": "conversation_0153",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0154/chunk_0001.txt",
+      "source_id": "conversation_0154",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0155/chunk_0001.txt",
+      "source_id": "conversation_0155",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0155/chunk_0002.txt",
+      "source_id": "conversation_0155",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0156/chunk_0001.txt",
+      "source_id": "conversation_0156",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0157/chunk_0001.txt",
+      "source_id": "conversation_0157",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0157/chunk_0002.txt",
+      "source_id": "conversation_0157",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0157/chunk_0003.txt",
+      "source_id": "conversation_0157",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0158/chunk_0001.txt",
+      "source_id": "conversation_0158",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0158/chunk_0002.txt",
+      "source_id": "conversation_0158",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0158/chunk_0003.txt",
+      "source_id": "conversation_0158",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0159/chunk_0001.txt",
+      "source_id": "conversation_0159",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0159/chunk_0002.txt",
+      "source_id": "conversation_0159",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0160/chunk_0001.txt",
+      "source_id": "conversation_0160",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0160/chunk_0002.txt",
+      "source_id": "conversation_0160",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0161/chunk_0001.txt",
+      "source_id": "conversation_0161",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0162/chunk_0001.txt",
+      "source_id": "conversation_0162",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0163/chunk_0001.txt",
+      "source_id": "conversation_0163",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0164/chunk_0001.txt",
+      "source_id": "conversation_0164",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0164/chunk_0002.txt",
+      "source_id": "conversation_0164",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0164/chunk_0003.txt",
+      "source_id": "conversation_0164",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0164/chunk_0004.txt",
+      "source_id": "conversation_0164",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0164/chunk_0005.txt",
+      "source_id": "conversation_0164",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0164/chunk_0006.txt",
+      "source_id": "conversation_0164",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0164/chunk_0007.txt",
+      "source_id": "conversation_0164",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0164/chunk_0008.txt",
+      "source_id": "conversation_0164",
+      "chunk_name": "chunk_0008",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0164/chunk_0009.txt",
+      "source_id": "conversation_0164",
+      "chunk_name": "chunk_0009",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0164/chunk_0010.txt",
+      "source_id": "conversation_0164",
+      "chunk_name": "chunk_0010",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0164/chunk_0011.txt",
+      "source_id": "conversation_0164",
+      "chunk_name": "chunk_0011",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0165/chunk_0001.txt",
+      "source_id": "conversation_0165",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0166/chunk_0001.txt",
+      "source_id": "conversation_0166",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0167/chunk_0001.txt",
+      "source_id": "conversation_0167",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0168/chunk_0001.txt",
+      "source_id": "conversation_0168",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0168/chunk_0002.txt",
+      "source_id": "conversation_0168",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0168/chunk_0003.txt",
+      "source_id": "conversation_0168",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0168/chunk_0004.txt",
+      "source_id": "conversation_0168",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0168/chunk_0005.txt",
+      "source_id": "conversation_0168",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0168/chunk_0006.txt",
+      "source_id": "conversation_0168",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0169/chunk_0001.txt",
+      "source_id": "conversation_0169",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0170/chunk_0001.txt",
+      "source_id": "conversation_0170",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0171/chunk_0001.txt",
+      "source_id": "conversation_0171",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0171/chunk_0002.txt",
+      "source_id": "conversation_0171",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0172/chunk_0001.txt",
+      "source_id": "conversation_0172",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0173/chunk_0001.txt",
+      "source_id": "conversation_0173",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0174/chunk_0001.txt",
+      "source_id": "conversation_0174",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0175/chunk_0001.txt",
+      "source_id": "conversation_0175",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0175/chunk_0002.txt",
+      "source_id": "conversation_0175",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0175/chunk_0003.txt",
+      "source_id": "conversation_0175",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0176/chunk_0001.txt",
+      "source_id": "conversation_0176",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0177/chunk_0001.txt",
+      "source_id": "conversation_0177",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0177/chunk_0002.txt",
+      "source_id": "conversation_0177",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0178/chunk_0001.txt",
+      "source_id": "conversation_0178",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0179/chunk_0001.txt",
+      "source_id": "conversation_0179",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0180/chunk_0001.txt",
+      "source_id": "conversation_0180",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0181/chunk_0001.txt",
+      "source_id": "conversation_0181",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0181/chunk_0002.txt",
+      "source_id": "conversation_0181",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0182/chunk_0001.txt",
+      "source_id": "conversation_0182",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0183/chunk_0001.txt",
+      "source_id": "conversation_0183",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0183/chunk_0002.txt",
+      "source_id": "conversation_0183",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0184/chunk_0001.txt",
+      "source_id": "conversation_0184",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0185/chunk_0001.txt",
+      "source_id": "conversation_0185",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0185/chunk_0002.txt",
+      "source_id": "conversation_0185",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0185/chunk_0003.txt",
+      "source_id": "conversation_0185",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0185/chunk_0004.txt",
+      "source_id": "conversation_0185",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0185/chunk_0005.txt",
+      "source_id": "conversation_0185",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0185/chunk_0006.txt",
+      "source_id": "conversation_0185",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0185/chunk_0007.txt",
+      "source_id": "conversation_0185",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0185/chunk_0008.txt",
+      "source_id": "conversation_0185",
+      "chunk_name": "chunk_0008",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0186/chunk_0001.txt",
+      "source_id": "conversation_0186",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0187/chunk_0001.txt",
+      "source_id": "conversation_0187",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0188/chunk_0001.txt",
+      "source_id": "conversation_0188",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0188/chunk_0002.txt",
+      "source_id": "conversation_0188",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0188/chunk_0003.txt",
+      "source_id": "conversation_0188",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0189/chunk_0001.txt",
+      "source_id": "conversation_0189",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0189/chunk_0002.txt",
+      "source_id": "conversation_0189",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0189/chunk_0003.txt",
+      "source_id": "conversation_0189",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0189/chunk_0004.txt",
+      "source_id": "conversation_0189",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0189/chunk_0005.txt",
+      "source_id": "conversation_0189",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0189/chunk_0006.txt",
+      "source_id": "conversation_0189",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0189/chunk_0007.txt",
+      "source_id": "conversation_0189",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0190/chunk_0001.txt",
+      "source_id": "conversation_0190",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0191/chunk_0001.txt",
+      "source_id": "conversation_0191",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0192/chunk_0001.txt",
+      "source_id": "conversation_0192",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0193/chunk_0001.txt",
+      "source_id": "conversation_0193",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0194/chunk_0001.txt",
+      "source_id": "conversation_0194",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0194/chunk_0002.txt",
+      "source_id": "conversation_0194",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0194/chunk_0003.txt",
+      "source_id": "conversation_0194",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0194/chunk_0004.txt",
+      "source_id": "conversation_0194",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0194/chunk_0005.txt",
+      "source_id": "conversation_0194",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0195/chunk_0001.txt",
+      "source_id": "conversation_0195",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0195/chunk_0002.txt",
+      "source_id": "conversation_0195",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0196/chunk_0001.txt",
+      "source_id": "conversation_0196",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0197/chunk_0001.txt",
+      "source_id": "conversation_0197",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0197/chunk_0002.txt",
+      "source_id": "conversation_0197",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0198/chunk_0001.txt",
+      "source_id": "conversation_0198",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0198/chunk_0002.txt",
+      "source_id": "conversation_0198",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0198/chunk_0003.txt",
+      "source_id": "conversation_0198",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0199/chunk_0001.txt",
+      "source_id": "conversation_0199",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0199/chunk_0002.txt",
+      "source_id": "conversation_0199",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0199/chunk_0003.txt",
+      "source_id": "conversation_0199",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0199/chunk_0004.txt",
+      "source_id": "conversation_0199",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0199/chunk_0005.txt",
+      "source_id": "conversation_0199",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0199/chunk_0006.txt",
+      "source_id": "conversation_0199",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0200/chunk_0001.txt",
+      "source_id": "conversation_0200",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0201/chunk_0001.txt",
+      "source_id": "conversation_0201",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0201/chunk_0002.txt",
+      "source_id": "conversation_0201",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0202/chunk_0001.txt",
+      "source_id": "conversation_0202",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0202/chunk_0002.txt",
+      "source_id": "conversation_0202",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0202/chunk_0003.txt",
+      "source_id": "conversation_0202",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0202/chunk_0004.txt",
+      "source_id": "conversation_0202",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0202/chunk_0005.txt",
+      "source_id": "conversation_0202",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0202/chunk_0006.txt",
+      "source_id": "conversation_0202",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0202/chunk_0007.txt",
+      "source_id": "conversation_0202",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0203/chunk_0001.txt",
+      "source_id": "conversation_0203",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0204/chunk_0001.txt",
+      "source_id": "conversation_0204",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0205/chunk_0001.txt",
+      "source_id": "conversation_0205",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0206/chunk_0001.txt",
+      "source_id": "conversation_0206",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0207/chunk_0001.txt",
+      "source_id": "conversation_0207",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0208/chunk_0001.txt",
+      "source_id": "conversation_0208",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0209/chunk_0001.txt",
+      "source_id": "conversation_0209",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0210/chunk_0001.txt",
+      "source_id": "conversation_0210",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0210/chunk_0002.txt",
+      "source_id": "conversation_0210",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0211/chunk_0001.txt",
+      "source_id": "conversation_0211",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0212/chunk_0001.txt",
+      "source_id": "conversation_0212",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0213/chunk_0001.txt",
+      "source_id": "conversation_0213",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0214/chunk_0001.txt",
+      "source_id": "conversation_0214",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0215/chunk_0001.txt",
+      "source_id": "conversation_0215",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0216/chunk_0001.txt",
+      "source_id": "conversation_0216",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0217/chunk_0001.txt",
+      "source_id": "conversation_0217",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0218/chunk_0001.txt",
+      "source_id": "conversation_0218",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0218/chunk_0002.txt",
+      "source_id": "conversation_0218",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0218/chunk_0003.txt",
+      "source_id": "conversation_0218",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0218/chunk_0004.txt",
+      "source_id": "conversation_0218",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0218/chunk_0005.txt",
+      "source_id": "conversation_0218",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0218/chunk_0006.txt",
+      "source_id": "conversation_0218",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0218/chunk_0007.txt",
+      "source_id": "conversation_0218",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0218/chunk_0008.txt",
+      "source_id": "conversation_0218",
+      "chunk_name": "chunk_0008",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0218/chunk_0009.txt",
+      "source_id": "conversation_0218",
+      "chunk_name": "chunk_0009",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0219/chunk_0001.txt",
+      "source_id": "conversation_0219",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0220/chunk_0001.txt",
+      "source_id": "conversation_0220",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0221/chunk_0001.txt",
+      "source_id": "conversation_0221",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0222/chunk_0001.txt",
+      "source_id": "conversation_0222",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0223/chunk_0001.txt",
+      "source_id": "conversation_0223",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0224/chunk_0001.txt",
+      "source_id": "conversation_0224",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0225/chunk_0001.txt",
+      "source_id": "conversation_0225",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0226/chunk_0001.txt",
+      "source_id": "conversation_0226",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0227/chunk_0001.txt",
+      "source_id": "conversation_0227",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0228/chunk_0001.txt",
+      "source_id": "conversation_0228",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0229/chunk_0001.txt",
+      "source_id": "conversation_0229",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0230/chunk_0001.txt",
+      "source_id": "conversation_0230",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0231/chunk_0001.txt",
+      "source_id": "conversation_0231",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0231/chunk_0002.txt",
+      "source_id": "conversation_0231",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0232/chunk_0001.txt",
+      "source_id": "conversation_0232",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0233/chunk_0001.txt",
+      "source_id": "conversation_0233",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0234/chunk_0001.txt",
+      "source_id": "conversation_0234",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0235/chunk_0001.txt",
+      "source_id": "conversation_0235",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0235/chunk_0002.txt",
+      "source_id": "conversation_0235",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0235/chunk_0003.txt",
+      "source_id": "conversation_0235",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0235/chunk_0004.txt",
+      "source_id": "conversation_0235",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0235/chunk_0005.txt",
+      "source_id": "conversation_0235",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0236/chunk_0001.txt",
+      "source_id": "conversation_0236",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0236/chunk_0002.txt",
+      "source_id": "conversation_0236",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0236/chunk_0003.txt",
+      "source_id": "conversation_0236",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0236/chunk_0004.txt",
+      "source_id": "conversation_0236",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0236/chunk_0005.txt",
+      "source_id": "conversation_0236",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0237/chunk_0001.txt",
+      "source_id": "conversation_0237",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0237/chunk_0002.txt",
+      "source_id": "conversation_0237",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0237/chunk_0003.txt",
+      "source_id": "conversation_0237",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0237/chunk_0004.txt",
+      "source_id": "conversation_0237",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0237/chunk_0005.txt",
+      "source_id": "conversation_0237",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0237/chunk_0006.txt",
+      "source_id": "conversation_0237",
+      "chunk_name": "chunk_0006",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0237/chunk_0007.txt",
+      "source_id": "conversation_0237",
+      "chunk_name": "chunk_0007",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0237/chunk_0008.txt",
+      "source_id": "conversation_0237",
+      "chunk_name": "chunk_0008",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0237/chunk_0009.txt",
+      "source_id": "conversation_0237",
+      "chunk_name": "chunk_0009",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0237/chunk_0010.txt",
+      "source_id": "conversation_0237",
+      "chunk_name": "chunk_0010",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0237/chunk_0011.txt",
+      "source_id": "conversation_0237",
+      "chunk_name": "chunk_0011",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0237/chunk_0012.txt",
+      "source_id": "conversation_0237",
+      "chunk_name": "chunk_0012",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0238/chunk_0001.txt",
+      "source_id": "conversation_0238",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0239/chunk_0001.txt",
+      "source_id": "conversation_0239",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0240/chunk_0001.txt",
+      "source_id": "conversation_0240",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0241/chunk_0001.txt",
+      "source_id": "conversation_0241",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0242/chunk_0001.txt",
+      "source_id": "conversation_0242",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0242/chunk_0002.txt",
+      "source_id": "conversation_0242",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0243/chunk_0001.txt",
+      "source_id": "conversation_0243",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0243/chunk_0002.txt",
+      "source_id": "conversation_0243",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0244/chunk_0001.txt",
+      "source_id": "conversation_0244",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0245/chunk_0001.txt",
+      "source_id": "conversation_0245",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0246/chunk_0001.txt",
+      "source_id": "conversation_0246",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0246/chunk_0002.txt",
+      "source_id": "conversation_0246",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0247/chunk_0001.txt",
+      "source_id": "conversation_0247",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0248/chunk_0001.txt",
+      "source_id": "conversation_0248",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0249/chunk_0001.txt",
+      "source_id": "conversation_0249",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0250/chunk_0001.txt",
+      "source_id": "conversation_0250",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0251/chunk_0001.txt",
+      "source_id": "conversation_0251",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0252/chunk_0001.txt",
+      "source_id": "conversation_0252",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0253/chunk_0001.txt",
+      "source_id": "conversation_0253",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0254/chunk_0001.txt",
+      "source_id": "conversation_0254",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0255/chunk_0001.txt",
+      "source_id": "conversation_0255",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0256/chunk_0001.txt",
+      "source_id": "conversation_0256",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0257/chunk_0001.txt",
+      "source_id": "conversation_0257",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0258/chunk_0001.txt",
+      "source_id": "conversation_0258",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0259/chunk_0001.txt",
+      "source_id": "conversation_0259",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0259/chunk_0002.txt",
+      "source_id": "conversation_0259",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0259/chunk_0003.txt",
+      "source_id": "conversation_0259",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0260/chunk_0001.txt",
+      "source_id": "conversation_0260",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0261/chunk_0001.txt",
+      "source_id": "conversation_0261",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0262/chunk_0001.txt",
+      "source_id": "conversation_0262",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0263/chunk_0001.txt",
+      "source_id": "conversation_0263",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0264/chunk_0001.txt",
+      "source_id": "conversation_0264",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0264/chunk_0002.txt",
+      "source_id": "conversation_0264",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0265/chunk_0001.txt",
+      "source_id": "conversation_0265",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0266/chunk_0001.txt",
+      "source_id": "conversation_0266",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0267/chunk_0001.txt",
+      "source_id": "conversation_0267",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0268/chunk_0001.txt",
+      "source_id": "conversation_0268",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0269/chunk_0001.txt",
+      "source_id": "conversation_0269",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0270/chunk_0001.txt",
+      "source_id": "conversation_0270",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0271/chunk_0001.txt",
+      "source_id": "conversation_0271",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0272/chunk_0001.txt",
+      "source_id": "conversation_0272",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0273/chunk_0001.txt",
+      "source_id": "conversation_0273",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0274/chunk_0001.txt",
+      "source_id": "conversation_0274",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0274/chunk_0002.txt",
+      "source_id": "conversation_0274",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0275/chunk_0001.txt",
+      "source_id": "conversation_0275",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0275/chunk_0002.txt",
+      "source_id": "conversation_0275",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0275/chunk_0003.txt",
+      "source_id": "conversation_0275",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0275/chunk_0004.txt",
+      "source_id": "conversation_0275",
+      "chunk_name": "chunk_0004",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0275/chunk_0005.txt",
+      "source_id": "conversation_0275",
+      "chunk_name": "chunk_0005",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0276/chunk_0001.txt",
+      "source_id": "conversation_0276",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0277/chunk_0001.txt",
+      "source_id": "conversation_0277",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0278/chunk_0001.txt",
+      "source_id": "conversation_0278",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0278/chunk_0002.txt",
+      "source_id": "conversation_0278",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0279/chunk_0001.txt",
+      "source_id": "conversation_0279",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0280/chunk_0001.txt",
+      "source_id": "conversation_0280",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0280/chunk_0002.txt",
+      "source_id": "conversation_0280",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0281/chunk_0001.txt",
+      "source_id": "conversation_0281",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0282/chunk_0001.txt",
+      "source_id": "conversation_0282",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0282/chunk_0002.txt",
+      "source_id": "conversation_0282",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0283/chunk_0001.txt",
+      "source_id": "conversation_0283",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0284/chunk_0001.txt",
+      "source_id": "conversation_0284",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0285/chunk_0001.txt",
+      "source_id": "conversation_0285",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0286/chunk_0001.txt",
+      "source_id": "conversation_0286",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0287/chunk_0001.txt",
+      "source_id": "conversation_0287",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0288/chunk_0001.txt",
+      "source_id": "conversation_0288",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0289/chunk_0001.txt",
+      "source_id": "conversation_0289",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0290/chunk_0001.txt",
+      "source_id": "conversation_0290",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0291/chunk_0001.txt",
+      "source_id": "conversation_0291",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0292/chunk_0001.txt",
+      "source_id": "conversation_0292",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0292/chunk_0002.txt",
+      "source_id": "conversation_0292",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0293/chunk_0001.txt",
+      "source_id": "conversation_0293",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0294/chunk_0001.txt",
+      "source_id": "conversation_0294",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0295/chunk_0001.txt",
+      "source_id": "conversation_0295",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0296/chunk_0001.txt",
+      "source_id": "conversation_0296",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0297/chunk_0001.txt",
+      "source_id": "conversation_0297",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0298/chunk_0001.txt",
+      "source_id": "conversation_0298",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0299/chunk_0001.txt",
+      "source_id": "conversation_0299",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0300/chunk_0001.txt",
+      "source_id": "conversation_0300",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0301/chunk_0001.txt",
+      "source_id": "conversation_0301",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0301/chunk_0002.txt",
+      "source_id": "conversation_0301",
+      "chunk_name": "chunk_0002",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0301/chunk_0003.txt",
+      "source_id": "conversation_0301",
+      "chunk_name": "chunk_0003",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0302/chunk_0001.txt",
+      "source_id": "conversation_0302",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0303/chunk_0001.txt",
+      "source_id": "conversation_0303",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0304/chunk_0001.txt",
+      "source_id": "conversation_0304",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0305/chunk_0001.txt",
+      "source_id": "conversation_0305",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    },
+    {
+      "chunk_path": "D:/LYRN---Development/automation/queued_chunks/conversation_0306/chunk_0001.txt",
+      "source_id": "conversation_0306",
+      "chunk_name": "chunk_0001",
+      "processed": false
+    }
+  ]
+}

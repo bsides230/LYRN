@@ -1,0 +1,42 @@
+[
+  {
+    "name": "RWI",
+    "order": 0,
+    "active": true
+  },
+  {
+    "name": "system_instructions",
+    "order": 1,
+    "active": true
+  },
+  {
+    "name": "personality",
+    "order": 2,
+    "active": true
+  },
+  {
+    "name": "system_rules",
+    "order": 3,
+    "active": true
+  },
+  {
+    "name": "ai_preferences",
+    "order": 4,
+    "active": true
+  },
+  {
+    "name": "jobs",
+    "order": 5,
+    "active": true
+  },
+  {
+    "name": "oss_tools",
+    "order": 6,
+    "active": false
+  },
+  {
+    "name": "user_preferences",
+    "order": 7,
+    "active": false
+  }
+]

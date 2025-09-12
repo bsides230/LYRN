@@ -1,0 +1,7 @@
+[
+  {
+    "filename": "chat_gpt_cc.py",
+    "button_name": "Chunk ChatGPT JSON",
+    "description": "Splits a large conversations.json file into smaller 0.5MB JSON chunks for easier processing."
+  }
+]

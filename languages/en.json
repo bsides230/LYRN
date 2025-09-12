@@ -1,0 +1,10 @@
+{
+  "settings_window_title": "LYRN-AI Settings",
+  "tab_model_config": "Model Config",
+  "tab_directory_paths": "Directory Paths",
+  "tab_prompt_manager": "Prompt Manager",
+  "tab_theme_builder": "Theme Builder",
+  "tab_advanced": "Advanced",
+  "button_save_all": "Save All",
+  "button_cancel": "Cancel"
+}

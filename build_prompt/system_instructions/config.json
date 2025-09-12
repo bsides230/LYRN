@@ -1,0 +1,6 @@
+{
+  "begin_bracket": "###SYSTEM_INSTRUCTIONS_START###",
+  "end_bracket": "###SYSTEM_INSTRUCTIONS_END###",
+  "content_file": "instructions.txt",
+  "rwi_text": "- system_instructions: [###SYSTEM_INSTRUCTIONS.START###]...[###SYSTEM_INSTRUCTIONS.END###] Core system instructions."
+}
