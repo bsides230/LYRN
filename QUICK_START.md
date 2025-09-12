@@ -21,14 +21,37 @@ LYRN-AI works with local models in GGUF format.
 
 With the setup complete, you can now launch the application.
 
-1.  Run the main script from your terminal:
+> **Note:** This application has been developed and tested primarily on **Windows**.
+
+### Launching on Windows
+
+There are two main ways to launch the application on a Windows system. The primary application file is `lyrn_sad_v4.2.7.pyw`.
+
+#### Option 1: Standard Launch (No Console Window)
+
+This is the recommended way to run the application for normal use. The `.pyw` extension tells Windows to run the script without opening a black console window in the background.
+
+-   **Double-click** the `lyrn_sad_v4.2.7.pyw` file.
+
+That's it! The main application window should appear.
+
+#### Option 2: Launch with Console (for Debugging)
+
+If you are a developer or need to see logs and error messages directly, you can run the script using the standard `python.exe` interpreter. This will open a console window alongside the GUI.
+
+1.  Open a command prompt or PowerShell terminal in the project's root directory.
+2.  Run the following command:
     ```bash
-    python lyrn_sad_v*.py
+    python lyrn_sad_v4.2.7.pyw
     ```
-2.  The **Model Settings** window will appear automatically.
-3.  Your model file should be automatically selected in the **Model File** dropdown. If not, select it.
-4.  Adjust any parameters if you wish (the defaults are fine for most systems).
-5.  Click **Load Model**. The application will load the model, which may take a few moments.
+    (You can also use `python lyrn_sad_v*.pyw` to auto-select the latest version).
+
+### First-Time Setup
+
+1.  The **Model Settings** window will appear automatically on the first launch.
+2.  Your model file should be automatically selected in the **Model File** dropdown. If it isn't, please select it from the `models` folder you created.
+3.  Adjust any parameters if you wish (the defaults are fine for most systems).
+4.  Click **Load Model**. The application will load the model, which may take a few moments. The status light will turn green and say "Ready" when it's done.
 
 ## 3. A Tour of the Interface
 
