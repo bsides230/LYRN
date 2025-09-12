@@ -23,7 +23,7 @@ With the setup complete, you can now launch the application.
 
 1.  Run the main script from your terminal:
     ```bash
-    python lyrn_sad_v4.2.6.pyw
+    python lyrn_sad_v*.py
     ```
 2.  The **Model Settings** window will appear automatically.
 3.  Your model file should be automatically selected in the **Model File** dropdown. If not, select it.
