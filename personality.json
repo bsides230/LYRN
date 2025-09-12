@@ -40,11 +40,11 @@
     }
   },
   "active_traits": {
-    "creativity": 500,
-    "consistency": 800,
-    "verbosity": 400,
-    "assertiveness": 600,
-    "curiosity": 750,
-    "enthusiasm": 650
+    "creativity": 900,
+    "consistency": 400,
+    "verbosity": 800,
+    "assertiveness": 700,
+    "curiosity": 900,
+    "enthusiasm": 800
   }
 }

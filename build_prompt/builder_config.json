@@ -4,5 +4,6 @@
   "user_preferences": true,
   "ai_preferences": true,
   "system_rules": true,
-  "system_instructions": true
+  "system_instructions": true,
+  "master_prompt_locked": false
 }

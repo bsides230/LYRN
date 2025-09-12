@@ -10,17 +10,17 @@
     "active": true
   },
   {
-    "name": "personality",
+    "name": "system_rules",
     "order": 2,
     "active": true
   },
   {
-    "name": "system_rules",
+    "name": "ai_preferences",
     "order": 3,
     "active": true
   },
   {
-    "name": "ai_preferences",
+    "name": "personality",
     "order": 4,
     "active": true
   },

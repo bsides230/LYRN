@@ -3,6 +3,6 @@
   "rwi_text": "- jobs_instructions: [###JI_START###][###JI_END###]: This block contains a list of job instructions.",
   "begin_bracket": "###JOBS_START###",
   "end_bracket": "###JOBS_END###",
-  "job_begin_bracket": "###JOB_*job_name*_START###",
-  "job_end_bracket": "###JOB_*job_name*_END###"
+  "job_begin_bracket": "##JOB_*job_name*_START##",
+  "job_end_bracket": "##JOB_*job_name*_END##"
 }

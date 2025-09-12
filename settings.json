@@ -1,12 +1,12 @@
 {
   "settings": {
     "active": {
-      "model_path": "models/openai_gpt-oss-20b-Q4_K_M.gguf",
-      "n_ctx": 16000,
+      "model_path": "D:\\LYRN\\models\\gemma-3-4b-it-q4_0_s.gguf",
+      "n_ctx": 80000,
       "n_threads": 22,
       "n_gpu_layers": 36,
       "n_batch": 256,
-      "max_tokens": 1024,
+      "max_tokens": 5000,
       "temperature": 0.7,
       "top_p": 0.95,
       "top_k": 40,
@@ -15,12 +15,12 @@
       "is_oss_model": false
     },
     "paths": {
-      "static_snapshots": "D:\\LYRN-SAD\\build_prompt/static_snapshots",
-      "dynamic_snapshots": "D:\\LYRN-SAD\\build_prompt/dynamic_snapshots",
-      "active_jobs": "D:\\LYRN-SAD\\build_prompt/active_jobs",
-      "deltas": "D:\\LYRN-SAD\\deltas",
-      "chat": "D:\\LYRN-SAD\\chat",
-      "output": "D:\\LYRN-SAD\\output",
+      "static_snapshots": "D:\\LYRN\\build_prompt/static_snapshots",
+      "dynamic_snapshots": "D:\\LYRN\\build_prompt/dynamic_snapshots",
+      "active_jobs": "D:\\LYRN\\build_prompt/active_jobs",
+      "deltas": "D:\\LYRN\\deltas",
+      "chat": "D:\\LYRN\\chat",
+      "output": "D:\\LYRN\\output",
       "keywords": "D:\\LYRN-SAD\\active_keywords",
       "topics": "D:\\LYRN-SAD\\active_topics",
       "active_chunk": "D:\\LYRN-SAD\\active_chunk",
@@ -32,7 +32,7 @@
       "chat_dir": "D:\\LYRN-SAD\\chat",
       "chat_parsed_dir": "D:\\LYRN-SAD\\chat_parsed",
       "audit_dir": "D:\\LYRN-SAD\\automation/job_audit",
-      "metrics_logs": "D:\\LYRN-SAD\\metrics_logs"
+      "metrics_logs": "D:\\LYRN\\metrics_logs"
     },
     "model_presets": {
       "1": {
@@ -106,17 +106,18 @@
     "show_thinking_text": true,
     "chat_colors": {
       "user_text": "#00C0A0",
-      "assistant_text": "#FFFFFF",
       "thinking_text": "#FFD700",
+      "assistant_text": "#FFFFFF",
       "system_text": "#B0B0B0"
     },
-    "show_model_selector": false,
+    "show_model_selector": true,
     "autoload_model": false,
     "llm_log_visible": false,
     "llm_log_on_top": false,
     "language": "en",
     "terminal_start_path": "",
-    "enable_deltas": true,
-    "enable_chat_history": true
+    "enable_deltas": false,
+    "enable_chat_history": true,
+    "theme": "LYRN Dark"
   }
 }
