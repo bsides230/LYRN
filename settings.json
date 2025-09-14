@@ -110,6 +110,8 @@
       "assistant_text": "#FFFFFF",
       "system_text": "#B0B0B0"
     },
+    "left_sidebar_visible": false,
+    "right_sidebar_visible": false,
     "show_model_selector": true,
     "autoload_model": false,
     "llm_log_visible": false,
@@ -118,6 +120,8 @@
     "terminal_start_path": "",
     "enable_deltas": false,
     "enable_chat_history": true,
-    "theme": "LYRN Dark"
+    "theme": "LYRN Dark",
+    "right_sidebar_width": 336,
+    "left_sidebar_width": 240
   }
 }
