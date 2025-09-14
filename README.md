@@ -46,6 +46,26 @@ LYRN is built on a philosophy that diverges significantly from mainstream LLM de
     - In-app controls for all key generation parameters (`temperature`, `top_p`, `top_k`, etc.).
     - Stop generation at any time with a dedicated button.
 
+## Screenshots
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### System Prompt Builder
+![System Prompt Builder](screenshots/system_prompt_builder.png)
+
+### Job Manager
+![Job Manager](screenshots/jobs.png)
+
+### Chat Settings
+![Chat Settings](screenshots/chat_settings.png)
+
+### Model Settings
+![Model Settings](screenshots/model_settings.png)
+
+### Performance Metrics
+![Performance Metrics](screenshots/performance_metrics.png)
+
 ## Quick Start
 
 1.  **Install Dependencies**:
