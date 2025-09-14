@@ -482,7 +482,9 @@ class SettingsManager:
                 "assistant_text": "#FFFFFF",
                 "thinking_text": "#FFD700",
                 "system_text": "#B0B0B0"
-            }
+            },
+            "left_sidebar_visible": True,
+            "right_sidebar_visible": True
         }
         self.load_or_detect_first_boot()
 
@@ -5258,6 +5260,10 @@ class LyrnAIInterface(ctk.CTkToplevel):
         self.create_chat_context_menu()
         self.chat_display.bind("<Button-3>", self.show_chat_context_menu)
 
+        # Load and apply sidebar visibility state
+        self.set_left_sidebar_visibility(self.settings_manager.get_setting("left_sidebar_visible", True))
+        self.set_right_sidebar_visibility(self.settings_manager.get_setting("right_sidebar_visible", True))
+
         # --- Phase 2: Start Background Initialization ---
         threading.Thread(target=self._initialize_background_services, daemon=True).start()
         self.after(100, self.process_queue)
@@ -5561,11 +5567,23 @@ class LyrnAIInterface(ctk.CTkToplevel):
 
     def create_left_sidebar(self):
         """Creates the left sidebar for controls."""
-        self.left_sidebar = ctk.CTkFrame(self, width=320, corner_radius=38)
+        self.left_sidebar = ctk.CTkFrame(self, width=self.settings_manager.get_setting("left_sidebar_width", 320), corner_radius=38)
         self.left_sidebar.grid_propagate(False)
 
+        self.left_resize_handle = ctk.CTkFrame(self.left_sidebar, width=7, cursor="sb_h_double_arrow")
+        self.left_resize_handle.pack(side="right", fill="y", padx=(2, 0))
+        self.left_resize_handle.bind("<B1-Motion>", self.resize_left_sidebar)
+        self.left_resize_handle.bind("<ButtonRelease-1>", self.save_sidebar_widths)
+
+        self.left_sidebar_toggle_button = ctk.CTkButton(self.left_sidebar, text="<", command=self.toggle_left_sidebar, width=40)
+        self.left_sidebar_toggle_button.pack(side="bottom", pady=10)
+
+        self.left_sidebar_container = ctk.CTkFrame(self.left_sidebar, fg_color="transparent")
+        self.left_sidebar_container.pack(side="top", fill="both", expand=True)
+
+
         # LYRN-AI Header with logo placeholder
-        header_frame = ctk.CTkFrame(self.left_sidebar, fg_color=LYRN_PURPLE, corner_radius=38)
+        header_frame = ctk.CTkFrame(self.left_sidebar_container, fg_color=LYRN_PURPLE, corner_radius=38)
         header_frame.pack(fill="x", padx=10, pady=(10, 20))
         header_frame.pack_propagate(False)
         header_frame.grid_columnconfigure((0, 2), weight=1) # Give weight to side columns for centering
@@ -5613,10 +5631,10 @@ class LyrnAIInterface(ctk.CTkToplevel):
 
 
         # Enhanced Status Section
-        self.create_enhanced_status()
+        self.create_enhanced_status(self.left_sidebar_container)
 
         # Quick controls frame
-        self.quick_frame = ctk.CTkFrame(self.left_sidebar, fg_color="transparent", border_width=0)
+        self.quick_frame = ctk.CTkFrame(self.left_sidebar_container, fg_color="transparent", border_width=0)
         self.quick_frame.pack(fill="x", padx=10, pady=10)
 
         ctk.CTkLabel(self.quick_frame, text="Quick Controls", font=section_font).pack(pady=10)
@@ -5639,14 +5657,13 @@ class LyrnAIInterface(ctk.CTkToplevel):
         self.clear_chat_folder_button.pack(fill="x", padx=10, pady=3)
         Tooltip(self.clear_chat_folder_button, self.tooltips.get("clear_chat_folder_button", ""))
 
-
         # self.tasks_goals_button = ctk.CTkButton(self.quick_frame, text="🎯 Tasks/Goals", command=self.open_tasks_goals_popup)
         # self.tasks_goals_button.pack(fill="x", padx=10, pady=3)
         # Tooltip(self.tasks_goals_button, "Open the Tasks and Goals manager.")
 
 
         # Add a spacer to push content to the top
-        spacer = ctk.CTkFrame(self.left_sidebar, fg_color="transparent")
+        spacer = ctk.CTkFrame(self.left_sidebar_container, fg_color="transparent")
         spacer.pack(expand=True, fill="both")
 
         return self.left_sidebar
@@ -5657,8 +5674,19 @@ class LyrnAIInterface(ctk.CTkToplevel):
 
     def create_right_sidebar(self):
         """Creates the right sidebar for monitoring and gauges."""
-        self.right_sidebar = ctk.CTkFrame(self, width=320, corner_radius=38)
+        self.right_sidebar = ctk.CTkFrame(self, width=self.settings_manager.get_setting("right_sidebar_width", 320), corner_radius=38)
         self.right_sidebar.grid_propagate(False)
+
+        self.right_resize_handle = ctk.CTkFrame(self.right_sidebar, width=7, cursor="sb_h_double_arrow")
+        self.right_resize_handle.pack(side="left", fill="y", padx=(0, 2))
+        self.right_resize_handle.bind("<B1-Motion>", self.resize_right_sidebar)
+        self.right_resize_handle.bind("<ButtonRelease-1>", self.save_sidebar_widths)
+
+        self.right_sidebar_toggle_button = ctk.CTkButton(self.right_sidebar, text=">", command=self.toggle_right_sidebar, width=40)
+        self.right_sidebar_toggle_button.pack(side="bottom", pady=10)
+
+        self.right_sidebar_container = ctk.CTkFrame(self.right_sidebar, fg_color="transparent")
+        self.right_sidebar_container.pack(side="top", fill="both", expand=True)
 
         # Datetime display
         try:
@@ -5666,7 +5694,7 @@ class LyrnAIInterface(ctk.CTkToplevel):
         except:
             datetime_font = ("Consolas", 24, "bold")
 
-        datetime_frame = ctk.CTkFrame(self.right_sidebar, fg_color="transparent")
+        datetime_frame = ctk.CTkFrame(self.right_sidebar_container, fg_color="transparent")
         datetime_frame.pack(pady=(20, 10), padx=10, anchor="n")
         datetime_frame.grid_columnconfigure(0, weight=1)
 
@@ -5679,10 +5707,10 @@ class LyrnAIInterface(ctk.CTkToplevel):
         Tooltip(self.settings_button, self.tooltips.get("settings_button", ""))
 
         # Enhanced Performance Metrics Section
-        self.create_enhanced_metrics()
+        self.create_enhanced_metrics(self.right_sidebar_container)
 
         # Job Automation Section
-        self.job_frame = ctk.CTkFrame(self.right_sidebar, fg_color="transparent", border_width=0)
+        self.job_frame = ctk.CTkFrame(self.right_sidebar_container, fg_color="transparent", border_width=0)
         self.job_frame.pack(fill="x", padx=10, pady=10)
 
         ctk.CTkLabel(self.job_frame, text="Job Automation", font=ctk.CTkFont(family="Consolas", size=14, weight="bold")).pack(pady=10)
@@ -5726,9 +5754,81 @@ class LyrnAIInterface(ctk.CTkToplevel):
 
         return self.right_sidebar
 
-    def create_enhanced_metrics(self):
+    def toggle_left_sidebar(self):
+        """Toggles the visibility of the left sidebar."""
+        self.set_left_sidebar_visibility(not self.left_sidebar_visible)
+
+    def set_left_sidebar_visibility(self, visible: bool):
+        """Sets the visibility of the left sidebar and saves the state."""
+        self.left_sidebar_visible = visible
+        if self.left_sidebar_visible:
+            # Restore container and handle
+            self.left_sidebar_container.pack(side="top", fill="both", expand=True)
+            self.left_resize_handle.pack(side="right", fill="y", padx=(2, 0))
+            # Restore width
+            saved_width = self.settings_manager.get_setting("left_sidebar_width", 320)
+            self.left_sidebar.configure(width=saved_width)
+            self.left_sidebar_toggle_button.configure(text="<")
+        else:
+            # Save current width before collapsing
+            self.settings_manager.set_setting("left_sidebar_width", self.left_sidebar.winfo_width())
+            # Hide container and handle
+            self.left_sidebar_container.pack_forget()
+            self.left_resize_handle.pack_forget()
+            # Shrink sidebar
+            self.left_sidebar.configure(width=50)
+            self.left_sidebar_toggle_button.configure(text=">")
+        self.settings_manager.set_setting("left_sidebar_visible", self.left_sidebar_visible)
+
+
+    def toggle_right_sidebar(self):
+        """Toggles the visibility of the right sidebar."""
+        self.set_right_sidebar_visibility(not self.right_sidebar_visible)
+
+    def set_right_sidebar_visibility(self, visible: bool):
+        """Sets the visibility of the right sidebar and saves the state."""
+        self.right_sidebar_visible = visible
+        if self.right_sidebar_visible:
+            # Restore container and handle
+            self.right_sidebar_container.pack(side="top", fill="both", expand=True)
+            self.right_resize_handle.pack(side="left", fill="y", padx=(0, 2))
+            # Restore width
+            saved_width = self.settings_manager.get_setting("right_sidebar_width", 320)
+            self.right_sidebar.configure(width=saved_width)
+            self.right_sidebar_toggle_button.configure(text=">")
+        else:
+            # Save current width before collapsing
+            self.settings_manager.set_setting("right_sidebar_width", self.right_sidebar.winfo_width())
+            # Hide container and handle
+            self.right_sidebar_container.pack_forget()
+            self.right_resize_handle.pack_forget()
+            # Shrink sidebar
+            self.right_sidebar.configure(width=50)
+            self.right_sidebar_toggle_button.configure(text="<")
+        self.settings_manager.set_setting("right_sidebar_visible", self.right_sidebar_visible)
+
+    def resize_left_sidebar(self, event):
+        new_width = event.x_root - self.left_sidebar.winfo_rootx()
+        if 150 <= new_width <= 600:
+            self.left_sidebar.configure(width=new_width)
+
+    def resize_right_sidebar(self, event):
+        # The new width is the distance from the right edge of the window to the cursor
+        new_width = self.winfo_width() - (event.x_root - self.winfo_rootx())
+        if 150 <= new_width <= 600:
+            self.right_sidebar.configure(width=new_width)
+
+    def save_sidebar_widths(self, event=None):
+        """Saves the current widths of the sidebars to settings."""
+        left_width = self.left_sidebar.winfo_width()
+        right_width = self.right_sidebar.winfo_width()
+        self.settings_manager.set_setting("left_sidebar_width", left_width)
+        self.settings_manager.set_setting("right_sidebar_width", right_width)
+        self.update_status("Sidebar widths saved.", LYRN_INFO)
+
+    def create_enhanced_metrics(self, parent):
         """Create enhanced performance metrics with gauges"""
-        self.metrics_frame = ctk.CTkFrame(self.right_sidebar, fg_color="transparent", border_width=0, corner_radius=38)
+        self.metrics_frame = ctk.CTkFrame(parent, fg_color="transparent", border_width=0, corner_radius=38)
         self.metrics_frame.pack(fill="x", padx=10, pady=10)
 
         try:
@@ -5850,9 +5950,9 @@ class LyrnAIInterface(ctk.CTkToplevel):
             self.vram_label.configure(text=vram_text)
             self.vram_progress.set(stats['vram_percent'] / 100)
 
-    def create_enhanced_status(self):
+    def create_enhanced_status(self, parent):
         """Create enhanced status display with better organization."""
-        self.status_frame = ctk.CTkFrame(self.left_sidebar, fg_color="transparent", border_width=0)
+        self.status_frame = ctk.CTkFrame(parent, fg_color="transparent", border_width=0)
         self.status_frame.pack(fill="x", padx=10, pady=(0, 10))
 
         try:
