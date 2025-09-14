@@ -15,12 +15,12 @@
       "is_oss_model": false
     },
     "paths": {
-      "static_snapshots": "D:\\LYRN-SAD\\build_prompt/static_snapshots",
-      "dynamic_snapshots": "D:\\LYRN-SAD\\build_prompt/dynamic_snapshots",
-      "active_jobs": "D:\\LYRN-SAD\\build_prompt/active_jobs",
-      "deltas": "D:\\LYRN-SAD\\deltas",
-      "chat": "D:\\LYRN-SAD\\chat",
-      "output": "D:\\LYRN-SAD\\output",
+      "static_snapshots": "D:\\LYRN\\build_prompt/static_snapshots",
+      "dynamic_snapshots": "D:\\LYRN\\build_prompt/dynamic_snapshots",
+      "active_jobs": "D:\\LYRN\\build_prompt/active_jobs",
+      "deltas": "D:\\LYRN\\deltas",
+      "chat": "D:\\LYRN\\chat",
+      "output": "D:\\LYRN\\output",
       "keywords": "D:\\LYRN-SAD\\active_keywords",
       "topics": "D:\\LYRN-SAD\\active_topics",
       "active_chunk": "D:\\LYRN-SAD\\active_chunk",
@@ -32,12 +32,12 @@
       "chat_dir": "D:\\LYRN-SAD\\chat",
       "chat_parsed_dir": "D:\\LYRN-SAD\\chat_parsed",
       "audit_dir": "D:\\LYRN-SAD\\automation/job_audit",
-      "metrics_logs": "D:\\LYRN-SAD\\metrics_logs"
+      "metrics_logs": "D:\\LYRN\\metrics_logs"
     },
     "model_presets": {
       "1": {
-        "model_path": "models/openai_gpt-oss-20b-Q4_K_M.gguf",
-        "n_ctx": 16000,
+        "model_path": "D:\\LYRN\\models\\openai_gpt-oss-20b-Q4_K_M.gguf",
+        "n_ctx": 24000,
         "n_threads": 22,
         "n_gpu_layers": 36,
         "temperature": 0.7,

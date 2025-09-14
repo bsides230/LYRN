@@ -36,8 +36,8 @@
     },
     "model_presets": {
       "1": {
-        "model_path": "models/openai_gpt-oss-20b-Q4_K_M.gguf",
-        "n_ctx": 16000,
+        "model_path": "D:\\LYRN\\models\\openai_gpt-oss-20b-Q4_K_M.gguf",
+        "n_ctx": 24000,
         "n_threads": 22,
         "n_gpu_layers": 36,
         "temperature": 0.7,
