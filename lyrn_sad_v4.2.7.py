@@ -14,6 +14,7 @@ import threading
 import io
 import contextlib
 import gc
+import base64
 from datetime import datetime, timedelta
 from typing import List, Dict, Tuple, Optional
 from pathlib import Path
@@ -37,7 +38,8 @@ from help_manager import HelpManager, HelpPopup
 
 # CustomTkinter imports
 import customtkinter as ctk
-from llama_cpp import Llama
+from llama_cpp import Llama, LlamaRAMCache
+from llama_cpp.llama_chat_format import Llava15ChatHandler
 try:
     from PIL import Image, ImageTk
 except ImportError:
@@ -1336,7 +1338,7 @@ class ModelSelectorPopup(ThemedPopup):
             ("GPU Layers:", "n_gpu_layers", 1, 0), ("Temperature:", "temperature", 1, 2),
             ("Max Tokens:", "max_tokens", 2, 0), ("Top P:", "top_p", 2, 2),
             ("Top K:", "top_k", 3, 0), ("Batch Size:", "n_batch", 3, 2),
-            ("Chat Format:", "chat_format", 4, 0)
+            ("Chat Format:", "chat_format", 4, 0),
         ]
 
         self.model_entries = {}
@@ -1345,6 +1347,15 @@ class ModelSelectorPopup(ThemedPopup):
             entry = ctk.CTkEntry(grid_frame, width=120, font=font)
             entry.grid(row=row, column=col+1, padx=10, pady=5, sticky="w")
             self.model_entries[key] = entry
+
+        # Add CLIP model path selector
+        ctk.CTkLabel(grid_frame, text="CLIP Model Path:", font=font).grid(row=5, column=0, padx=10, pady=5, sticky="e")
+        self.clip_model_path_entry = ctk.CTkEntry(grid_frame, width=300, font=font)
+        self.clip_model_path_entry.grid(row=5, column=1, columnspan=2, padx=10, pady=5, sticky="w")
+        self.model_entries['clip_model_path'] = self.clip_model_path_entry
+
+        browse_clip_button = ctk.CTkButton(grid_frame, text="Browse", font=font, width=80, command=self.browse_clip_model)
+        browse_clip_button.grid(row=5, column=3, padx=10, pady=5, sticky="w")
 
 
         # Warning Label
@@ -1370,6 +1381,16 @@ class ModelSelectorPopup(ThemedPopup):
 
         self.load_button = ctk.CTkButton(bottom_frame, text="Load Model", font=font, command=self.load_model)
         self.load_button.pack(side="right", padx=10)
+
+    def browse_clip_model(self):
+        """Opens a file dialog to select the CLIP model."""
+        filepath = filedialog.askopenfilename(
+            title="Select CLIP Model File",
+            filetypes=(("GGUF files", "*.gguf"), ("All files", "*.*"))
+        )
+        if filepath:
+            self.clip_model_path_entry.delete(0, "end")
+            self.clip_model_path_entry.insert(0, filepath)
 
         # --- Preset Management ---
         preset_frame = ctk.CTkFrame(main_frame)
@@ -1509,6 +1530,11 @@ class ModelSelectorPopup(ThemedPopup):
             if model_filename in self.model_dropdown.cget("values"):
                 self.model_dropdown.set(model_filename)
 
+        current_clip_model_path = active_settings.get("clip_model_path", "")
+        if current_clip_model_path:
+            self.clip_model_path_entry.delete(0, "end")
+            self.clip_model_path_entry.insert(0, current_clip_model_path)
+
 
     def load_model(self):
         """Save settings, trigger model load in parent, and close popup."""
@@ -1542,6 +1568,8 @@ class ModelSelectorPopup(ThemedPopup):
             elif key == "chat_format":
                 # If the value is an empty string, save None. Otherwise, save the string.
                 new_active_settings[key] = None if not value else value
+            elif key == "clip_model_path":
+                new_active_settings[key] = value
             else:
                 new_active_settings[key] = value
 
@@ -5200,6 +5228,8 @@ class LyrnAIInterface(ctk.CTkToplevel):
         self.resource_monitor = None
         self.chat_manager = None
         self.master_prompt_content = ""
+        self.selected_image_path = None
+        self.image_thumbnail_label = None
 
         # --- Role and Color Management ---
         self.role_mappings = {
@@ -5961,8 +5991,54 @@ class LyrnAIInterface(ctk.CTkToplevel):
         self.stop_btn.pack(pady=(5, 0), fill="x")
         Tooltip(self.stop_btn, self.tooltips.get("stop_button", ""))
 
+        self.add_image_btn = ctk.CTkButton(button_vframe, text="Add Image", width=80,
+                                         font=chat_font,
+                                         command=self.add_image)
+        self.add_image_btn.pack(pady=(5, 0), fill="x")
+        Tooltip(self.add_image_btn, "Add an image to the prompt (for multimodal models).")
+
+        self.image_thumbnail_label = ctk.CTkLabel(input_frame, text="")
+        self.image_thumbnail_label.grid(row=1, column=2, padx=(5,0))
+
         self.input_box.bind("<Control-Return>", self.send_message_from_event)
         return chat_frame
+
+    def add_image(self):
+        """Opens a file dialog to select an image and displays a thumbnail."""
+        if not self.settings_manager.settings.get("active", {}).get("clip_model_path"):
+            InstructionPopup(self, self.theme_manager, "Incompatible Model", "The currently loaded model is not multimodal. Please select a multimodal model and set the CLIP model path in the model settings.")
+            return
+
+        filepath = filedialog.askopenfilename(
+            title="Select an Image",
+            filetypes=(("Image Files", "*.png *.jpg *.jpeg *.bmp *.gif"), ("All files", "*.*"))
+        )
+        if filepath:
+            self.selected_image_path = filepath
+            self.update_image_thumbnail()
+
+    def remove_image(self):
+        """Removes the selected image and thumbnail."""
+        self.selected_image_path = None
+        self.update_image_thumbnail()
+
+    def update_image_thumbnail(self):
+        """Updates the image thumbnail label."""
+        if self.selected_image_path:
+            try:
+                img = Image.open(self.selected_image_path)
+                img.thumbnail((80, 80))
+                ctk_img = ImageTk.PhotoImage(img)
+                self.image_thumbnail_label.configure(image=ctk_img)
+                self.image_thumbnail_label.image = ctk_img # Keep a reference
+                self.add_image_btn.configure(text="Remove Image", command=self.remove_image)
+            except Exception as e:
+                print(f"Error creating thumbnail: {e}")
+                self.selected_image_path = None
+        else:
+            self.image_thumbnail_label.configure(image=None)
+            self.image_thumbnail_label.image = None
+            self.add_image_btn.configure(text="Add Image", command=self.add_image)
 
     def execute_job_directly(self, job_name: str, job_trigger: str):
         """Executes a job by sending its trigger directly to the backend without user interaction."""
@@ -6739,7 +6815,13 @@ class LyrnAIInterface(ctk.CTkToplevel):
         self.is_thinking = True
 
         self.set_model_status("Thinking") # Blue for generating
-        threading.Thread(target=self.generate_response, args=(user_text, history_messages), daemon=True).start()
+        image_data = None
+        if self.selected_image_path:
+            with open(self.selected_image_path, "rb") as f:
+                image_data = base64.b64encode(f.read()).decode('utf-8')
+            self.remove_image() # Clear the image after sending
+
+        threading.Thread(target=self.generate_response, args=(user_text, history_messages, image_data), daemon=True).start()
         self.update_status("Generating response...", LYRN_INFO)
 
     def get_response_for_job(self, user_text: str) -> str:
@@ -6808,7 +6890,7 @@ class LyrnAIInterface(ctk.CTkToplevel):
             self.chat_display.delete(pos, "end")
         self.chat_display.configure(state="disabled")
 
-    def generate_response(self, user_text: str, history_messages: List[Dict[str, str]]):
+    def generate_response(self, user_text: str, history_messages: List[Dict[str, str]], image_data: Optional[str] = None):
         """Generate AI response with enhanced handling and metrics capture."""
         try:
             # Use the cached prompt
@@ -6824,12 +6906,26 @@ class LyrnAIInterface(ctk.CTkToplevel):
 
             # Add the structured history and the current user input
             messages.extend(history_messages)
+
+            # Handle image data if present
+            if image_data:
+                user_content = [
+                    {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{image_data}"}},
+                    {"type": "text", "text": user_text}
+                ]
+            else:
+                user_content = user_text
+
             # Ensure roles alternate by merging if the last message is also from the user
             if messages and messages[-1].get("role") == "user":
                 print("Warning: Merging consecutive user messages to maintain alternating roles.")
-                messages[-1]["content"] += "\n\n" + user_text
+                if isinstance(messages[-1]["content"], list):
+                     messages[-1]["content"].append({"type": "text", "text": f"\n\n{user_text}"})
+                else:
+                    messages[-1]["content"] += f"\n\n{user_text}"
             else:
-                messages.append({"role": "user", "content": user_text})
+                 messages.append({"role": "user", "content": user_content})
+
 
             active = self.settings_manager.settings["active"]
             handler = StreamHandler(self.stream_queue, self.metrics, self.role_mappings, self.role_color_tags)
@@ -6839,13 +6935,20 @@ class LyrnAIInterface(ctk.CTkToplevel):
 
             with contextlib.redirect_stderr(log_capture_buffer):
                 # Start streaming with enhanced metrics capture
+                chat_handler = None
+                if image_data:
+                    clip_model_path = self.settings_manager.settings.get("active", {}).get("clip_model_path")
+                    if clip_model_path:
+                        chat_handler = Llava15ChatHandler(clip_model_path=clip_model_path, verbose=True)
+
                 stream = self.llm.create_chat_completion(
                     messages=messages,
                     max_tokens=active.get("max_tokens", 2048),
                     temperature=active["temperature"],
                     top_p=active["top_p"],
                     top_k=active.get("top_k", 40),
-                    stream=True
+                    stream=True,
+                    chat_handler=chat_handler
                 )
 
                 response_parts = []
