@@ -1061,10 +1061,11 @@ class StreamHandler:
     and from special inline tags within the content itself.
     """
 
-    def __init__(self, gui_queue, metrics: EnhancedPerformanceMetrics, role_mappings: dict, role_display_info: dict):
+    def __init__(self, gui_queue, metrics: EnhancedPerformanceMetrics, role_name_map: dict, role_tag_map: dict, role_display_info: dict):
         self.gui_queue = gui_queue
         self.metrics = metrics
-        self.role_mappings = role_mappings
+        self.role_name_map = role_name_map
+        self.role_tag_map = role_tag_map
         self.role_display_info = role_display_info
         self.current_response = ""
         self.is_finished = False
@@ -1084,11 +1085,8 @@ class StreamHandler:
             found_internal_role = ""
 
             # Find the earliest occurrence of any role tag in the buffer.
-            # We iterate through the master role_mappings dictionary.
-            for tag, internal_role in self.role_mappings.items():
-                # Simple role names (like 'assistant') are not inline tags.
-                if not tag.startswith("<|"):
-                    continue
+            # We iterate through the role_tag_map dictionary.
+            for tag, internal_role in self.role_tag_map.items():
                 pos = self.buffer.find(tag)
                 if pos != -1 and (found_pos == -1 or pos < found_pos):
                     found_pos = pos
@@ -1150,7 +1148,7 @@ class StreamHandler:
         # 1. Check for an explicit role change from the model
         new_role_name = delta.get('role')
         if new_role_name:
-            internal_role = self.role_mappings.get(new_role_name.lower())
+            internal_role = self.role_name_map.get(new_role_name.lower())
             if internal_role:
                 self._change_role(internal_role)
 
@@ -5229,8 +5227,8 @@ class LyrnAIInterface(ctk.CTkToplevel):
         self.master_prompt_content = ""
 
         # --- Role and Color Management ---
-        self.role_mappings = {
-            # Simple roles from model outputs
+        # For roles provided by the model stream's 'delta' (e.g., {'role': 'assistant'})
+        self.role_name_map = {
             "assistant": "final_output",
             "model": "final_output",
             "tool": "thinking_process",
@@ -5239,7 +5237,9 @@ class LyrnAIInterface(ctk.CTkToplevel):
             "analysis": "thinking_process",
             "qwen_thinking": "thinking_process",
             "smol_thought": "thinking_process",
-            # Complex inline tags for specific model formats
+        }
+        # For roles identified by inline tags in the text stream
+        self.role_tag_map = {
             "<|channel|>analysis<|message|>": "thinking_process",
             "<|start|>assistant<|channel|>final<|message|>": "final_output",
         }
@@ -5330,7 +5330,7 @@ class LyrnAIInterface(ctk.CTkToplevel):
         self.oss_tool_manager = OSSToolManager()
         self.scheduler_manager = SchedulerManager()
         self.cycle_manager = CycleManager()
-        self.chat_manager = ChatManager(self.settings_manager.settings["paths"].get("chat", "chat"), self.settings_manager, self.role_mappings)
+        self.chat_manager = ChatManager(self.settings_manager.settings["paths"].get("chat", "chat"), self.settings_manager, {**self.role_name_map, **self.role_tag_map})
         self.resource_monitor = SystemResourceMonitor(self.stream_queue)
         self.resource_monitor.start()
 
@@ -6869,7 +6869,7 @@ class LyrnAIInterface(ctk.CTkToplevel):
                 messages.append({"role": "user", "content": user_text})
 
             active = self.settings_manager.settings["active"]
-            handler = StreamHandler(self.stream_queue, self.metrics, self.role_mappings, self.role_display_info)
+            handler = StreamHandler(self.stream_queue, self.metrics, self.role_name_map, self.role_tag_map, self.role_display_info)
 
             # Setup stderr capture
             log_capture_buffer = io.StringIO()
