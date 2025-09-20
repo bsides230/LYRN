@@ -1055,93 +1055,118 @@ class SystemResourceMonitor:
                 print(f"Warning: NVML shutdown failed: {e}")
 
 class StreamHandler:
-    """Enhanced stream handler with better metrics capture and special channel parsing."""
+    """
+    Handles streaming responses from the LLM, parsing roles and content dynamically.
+    It can process roles from the stream's `delta` (e.g., `{'role': 'assistant'}`)
+    and from special inline tags within the content itself.
+    """
 
-    def __init__(self, gui_queue, metrics: EnhancedPerformanceMetrics, role_mappings: dict, role_color_tags: dict):
+    def __init__(self, gui_queue, metrics: EnhancedPerformanceMetrics, role_name_map: dict, role_tag_map: dict, role_display_info: dict):
         self.gui_queue = gui_queue
         self.metrics = metrics
-        self.role_mappings = role_mappings
-        self.role_color_tags = role_color_tags
+        self.role_name_map = role_name_map
+        self.role_tag_map = role_tag_map
+        self.role_display_info = role_display_info
         self.current_response = ""
         self.is_finished = False
         self.log_buffer = ""
         self.buffer = ""
-        self.current_role = "final_output"  # Start with a default role
-        self.role_tags = {
-            "<|channel|>analysis<|message|>": "thinking_process",
-            "<|start|>assistant<|channel|>final<|message|>": "final_output",
-        }
-
+        self.current_internal_role = "final_output"
+        self.last_displayed_role = None # Tracks what prefix has been printed
 
     def _process_buffer(self):
         """
-        Processes the internal buffer for role tags, sends tokens to the GUI,
+        Processes the internal buffer for inline role tags, sends tokens to the GUI,
         and manages role changes.
         """
         while True:
             found_tag = None
             found_pos = -1
-            found_role = ""
+            found_internal_role = ""
 
-            # Find the earliest occurrence of any of the defined role tags in the buffer
-            for tag, role in self.role_tags.items():
+            # Find the earliest occurrence of any role tag in the buffer.
+            # We iterate through the role_tag_map dictionary.
+            for tag, internal_role in self.role_tag_map.items():
                 pos = self.buffer.find(tag)
                 if pos != -1 and (found_pos == -1 or pos < found_pos):
                     found_pos = pos
                     found_tag = tag
-                    found_role = role
+                    found_internal_role = internal_role
 
             if found_tag:
                 # A tag was found. The content before this tag belongs to the current role.
                 content_before_tag = self.buffer[:found_pos]
                 if content_before_tag:
-                    self.gui_queue.put(('token', content_before_tag, self.current_role))
-                    if self.current_role == 'final_output':
-                        self.current_response += content_before_tag
+                    self._send_content(content_before_tag)
 
-                # Check for role transition to add spacing
-                if self.current_role == "thinking_process" and found_role == "final_output":
-                    self.gui_queue.put(('token', '\n', 'system_text'))
+                # Change the role
+                self._change_role(found_internal_role)
 
-                # We have a new role.
-                self.current_role = found_role
-
-                # Remove the processed content and the tag itself from the buffer, then continue the loop.
+                # Remove the processed content and the tag itself from the buffer.
                 self.buffer = self.buffer[found_pos + len(found_tag):]
             else:
-                # No tag found. To stream, we can send *most* of the buffer,
-                # but keep a tail end to avoid sending a partial tag.
-                # The longest tag is 46 chars. Let's use a safe buffer size like 50.
-                if len(self.buffer) > 50:
-                    content_to_stream = self.buffer[:-50]
-                    if content_to_stream:
-                        self.gui_queue.put(('token', content_to_stream, self.current_role))
-                        if self.current_role == 'final_output':
-                            self.current_response += content_to_stream
-                        self.buffer = self.buffer[-50:]
+                # No more tags found in the buffer.
+                # To stream smoothly, send most of the buffer but keep a tail end
+                # to avoid sending a partial tag in the next chunk.
+                safe_len = len(self.buffer)
+                longest_tag_len = 50 # A safe buffer size for potential partial tags
+                if safe_len > longest_tag_len:
+                    content_to_stream = self.buffer[:-longest_tag_len]
+                    self._send_content(content_to_stream)
+                    self.buffer = self.buffer[-longest_tag_len:]
                 break
 
+    def _send_content(self, content: str):
+        """Sends a token of content to the GUI, ensuring the role prefix is displayed first."""
+        # Check if we need to display a role prefix (e.g., "Assistant: ")
+        if self.current_internal_role != self.last_displayed_role:
+            display_info = self.role_display_info.get(self.current_internal_role)
+            if display_info:
+                self.gui_queue.put(('display_prefix', display_info['prefix'], display_info['color_tag']))
+            self.last_displayed_role = self.current_internal_role
+
+        # Send the actual content
+        self.gui_queue.put(('token', content, self.current_internal_role))
+        if self.current_internal_role == 'final_output':
+            self.current_response += content
+
+    def _change_role(self, new_internal_role: str):
+        """Updates the current role."""
+        if self.current_internal_role != new_internal_role:
+            self.current_internal_role = new_internal_role
+            # The prefix will be displayed by `_send_content` on the next token.
+
     def handle_token(self, token_data):
-        """Handle streaming tokens by adding to a buffer and processing it."""
-        if 'choices' in token_data and len(token_data['choices']) > 0:
-            delta = token_data['choices'][0].get('delta', {})
-            content = delta.get('content', '')
+        """Processes a new token data chunk from the LLM stream."""
+        if 'choices' not in token_data or not token_data['choices']:
+            return
 
-            if content:
-                self.buffer += content
-                self._process_buffer()
+        delta = token_data['choices'][0].get('delta', {})
+        if not delta:
+            return
 
-            finish_reason = token_data['choices'][0].get('finish_reason')
-            if finish_reason is not None:
-                # The stream is finished. Flush any remaining content in the buffer.
-                if self.buffer:
-                    self.gui_queue.put(('token', self.buffer, self.current_role))
-                    if self.current_role == 'final_output':
-                        self.current_response += self.buffer
-                    self.buffer = ""
+        # 1. Check for an explicit role change from the model
+        new_role_name = delta.get('role')
+        if new_role_name:
+            internal_role = self.role_name_map.get(new_role_name.lower())
+            if internal_role:
+                self._change_role(internal_role)
 
-                self.is_finished = True
-                self.gui_queue.put(('finished', self.current_response))
+        # 2. Process any content in the token
+        content = delta.get('content', '')
+        if content:
+            self.buffer += content
+            self._process_buffer()
+
+        # 3. Check if the stream has finished
+        if token_data['choices'][0].get('finish_reason') is not None:
+            # Flush any remaining content in the buffer
+            if self.buffer:
+                self._send_content(self.buffer)
+                self.buffer = ""
+
+            self.is_finished = True
+            self.gui_queue.put(('finished', self.current_response))
 
     def capture_logs(self, log_content: str):
         """Enhanced log capture"""
@@ -5202,13 +5227,21 @@ class LyrnAIInterface(ctk.CTkToplevel):
         self.master_prompt_content = ""
 
         # --- Role and Color Management ---
-        self.role_mappings = {
+        # For roles provided by the model stream's 'delta' (e.g., {'role': 'assistant'})
+        self.role_name_map = {
             "assistant": "final_output",
             "model": "final_output",
+            "tool": "thinking_process",
+            "tool_code": "thinking_process",
             "thinking": "thinking_process",
             "analysis": "thinking_process",
             "qwen_thinking": "thinking_process",
-            "smol_thought": "thinking_process"
+            "smol_thought": "thinking_process",
+        }
+        # For roles identified by inline tags in the text stream
+        self.role_tag_map = {
+            "<|channel|>analysis<|message|>": "thinking_process",
+            "<|start|>assistant<|channel|>final<|message|>": "final_output",
         }
         # The actual colors are loaded from settings_manager in apply_color_theme
         self.role_color_tags = {
@@ -5216,6 +5249,10 @@ class LyrnAIInterface(ctk.CTkToplevel):
             "thinking_process": "thinking_text",
             "user": "user_text",
             "system": "system_text"
+        }
+        self.role_display_info = {
+            "final_output": {"prefix": "\n\nAssistant: ", "color_tag": "assistant_text"},
+            "thinking_process": {"prefix": "\n\nThinking: ", "color_tag": "thinking_text"},
         }
 
         # Set taskbar icon
@@ -5293,7 +5330,7 @@ class LyrnAIInterface(ctk.CTkToplevel):
         self.oss_tool_manager = OSSToolManager()
         self.scheduler_manager = SchedulerManager()
         self.cycle_manager = CycleManager()
-        self.chat_manager = ChatManager(self.settings_manager.settings["paths"].get("chat", "chat"), self.settings_manager, self.role_mappings)
+        self.chat_manager = ChatManager(self.settings_manager.settings["paths"].get("chat", "chat"), self.settings_manager, {**self.role_name_map, **self.role_tag_map})
         self.resource_monitor = SystemResourceMonitor(self.stream_queue)
         self.resource_monitor.start()
 
@@ -6832,7 +6869,7 @@ class LyrnAIInterface(ctk.CTkToplevel):
                 messages.append({"role": "user", "content": user_text})
 
             active = self.settings_manager.settings["active"]
-            handler = StreamHandler(self.stream_queue, self.metrics, self.role_mappings, self.role_color_tags)
+            handler = StreamHandler(self.stream_queue, self.metrics, self.role_name_map, self.role_tag_map, self.role_display_info)
 
             # Setup stderr capture
             log_capture_buffer = io.StringIO()
@@ -6923,27 +6960,27 @@ class LyrnAIInterface(ctk.CTkToplevel):
                 try:
                     message = self.stream_queue.get_nowait()
 
-                    if message[0] == 'token':
+                    if message[0] == 'display_prefix':
                         if self.is_thinking:
+                            self.remove_thinking_message()
+                            self.is_thinking = False
+                        _, prefix, color_tag = message
+                        self.display_colored_message(prefix, color_tag)
+
+                    elif message[0] == 'token':
+                        if self.is_thinking: # This handles cases where first token arrives before a role
                             self.remove_thinking_message()
                             self.is_thinking = False
 
                         _, content, internal_role = message
+                        # The color tag is now determined by the role_display_info, but we can fall back
+                        color_tag = self.role_display_info.get(internal_role, {}).get("color_tag", "assistant_text")
 
-                        if internal_role == "final_output":
-                            tag = self.role_color_tags.get("final_output", "assistant_text")
-                            if not hasattr(self, '_assistant_started'):
-                                self.display_colored_message("\n\nAssistant: ", tag)
-                                self._assistant_started = True
-                            self.display_colored_message(content, tag)
+                        # Only display thinking text if the setting is enabled
+                        if internal_role == "thinking_process" and not self.settings_manager.get_setting("show_thinking_text", True):
+                            continue
+                        self.display_colored_message(content, color_tag)
 
-                        elif internal_role == "thinking_process":
-                            if self.settings_manager.get_setting("show_thinking_text", True):
-                                tag = self.role_color_tags.get("thinking_process", "thinking_text")
-                                if not hasattr(self, '_thinking_started'):
-                                    self.display_colored_message("\n\nThinking: ", tag)
-                                    self._thinking_started = True
-                                self.display_colored_message(content, tag)
 
                     elif message[0] == 'finished':
                         if self.is_thinking: # Handles empty responses
