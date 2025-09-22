@@ -12,6 +12,28 @@ LYRN is built on a philosophy that diverges significantly from mainstream LLM de
 
 *For a deeper dive into the project's vision and architectural principles, see `AGENTS.md`.*
 
+## Architectural Paradigm: A Comparison
+
+It's helpful to understand how LYRN's design differs from a traditional software application. The following is a breakdown of the key contrasts:
+
+1.  **State Management:**
+    *   **LYRN Framework:** Manages state through plain text and JSON files on the filesystem. This is highly transparent, human-readable, and avoids external dependencies, making it very portable.
+    *   **Traditional Approach:** Typically relies on databases (like PostgreSQL, MongoDB), in-memory caches (like Redis), or dedicated message brokers (like RabbitMQ) for state management. These systems are designed for performance, scalability, and safe concurrent access, but they add significant setup and operational complexity.
+
+2.  **Error Handling:**
+    *   **LYRN Framework:** Has intentionally minimal error handling. It operates like a simple Inter-Process Communication (IPC) layer, where its main job is to pass data. The responsibility for handling errors or unexpected states is implicitly pushed to the LLM.
+    *   **Traditional Approach:** Considers robust error handling a top priority. Code is filled with try/except blocks, custom exception classes, structured logging, and well-defined failure modes to ensure the application is resilient and predictable.
+
+3.  **Location of "Business Logic":**
+    *   **LYRN Framework:** The Python code itself contains very little logic. It's a "dumb" parser and data shuttle. The core intelligence—the "business logic"—resides almost entirely within the LLM.
+    *   **Traditional Approach:** The application's logic is the core of the codebase. It's explicitly written in Python (or another language) and organized into classes, functions, and modules that follow design patterns like MVC, Separation of Concerns, etc.
+
+4.  **Architectural Goal:**
+    *   **LYRN Framework:** The goal is to be a minimalist, lightweight "nervous system" for an AI. It's designed to be a component in a larger cognitive architecture, not a standalone application. Its primary virtue is its simplicity and low resource footprint.
+    *   **Traditional Approach:** The goal is usually to build a self-contained, feature-rich application that is robust, scalable, and maintainable on its own terms.
+
+In short, a traditional codebase is built to *be* the brain of the operation. This framework is built to *serve* a separate brain (the LLM). This is the most fundamental difference and it informs every other architectural choice.
+
 ## Major Features
 
 ✅ **Modern, Responsive UI**: Built with CustomTkinter for a professional look and feel. Asynchronous initialization ensures the UI loads instantly and never freezes during model operations.
