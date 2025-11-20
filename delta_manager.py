@@ -110,40 +110,100 @@ class DeltaManager:
         Updates a simple key-value delta in the manifest.
         This is used for things like personality sliders where only the latest value matters.
         """
-        self._load_manifest()
-        if "simple_deltas" not in self.manifest:
-            self.manifest["simple_deltas"] = {}
+        self.set_section_value("simple_deltas", trait_name, formatted_string)
 
-        self.manifest["simple_deltas"][trait_name] = formatted_string
+    def set_section_value(self, section: str, key: str, value: any):
+        """
+        Updates a key-value pair in a specific section of the manifest.
+        Useful for tracking temporary states or other non-file data.
+        """
+        self._load_manifest()
+        if section not in self.manifest:
+            self.manifest[section] = {}
+
+        # Ensure the section is a dict before assigning
+        if not isinstance(self.manifest[section], dict):
+            print(f"Warning: Section '{section}' is not a dictionary. Overwriting.")
+            self.manifest[section] = {}
+
+        self.manifest[section][key] = value
         self._save_manifest()
-        print(f"Updated simple delta for '{trait_name}'.")
+        print(f"Updated section '{section}', key '{key}'.")
+
+    def append_to_section(self, section: str, value: any):
+        """
+        Appends a value to a list in a specific section of the manifest.
+        """
+        self._load_manifest()
+        if section not in self.manifest:
+            self.manifest[section] = []
+
+        # Ensure the section is a list before appending
+        if not isinstance(self.manifest[section], list):
+             print(f"Warning: Section '{section}' is not a list. Overwriting.")
+             self.manifest[section] = []
+
+        self.manifest[section].append(value)
+        self._save_manifest()
+        print(f"Appended to section '{section}'.")
 
     def get_delta_content(self) -> str:
         """
-        Reads the manifest, then reads each delta file and concatenates
-        their content into a single string for prompt injection.
-        Also includes simple deltas.
+        Reads the manifest and constructs the delta injection block.
+
+        It aggregates:
+        1. Content of files listed in 'deltas'.
+        2. Values from 'simple_deltas'.
+        3. Content from any other sections in the manifest (formatted as blocks).
         """
         self._load_manifest() # Ensure we have the latest manifest
 
         all_delta_contents = []
 
-        # Process structured deltas from files
-        for relative_path_str in self.manifest.get("deltas", []):
-            delta_file_path = self.base_dir / relative_path_str
-            if delta_file_path.exists():
-                try:
-                    content = delta_file_path.read_text(encoding='utf-8')
-                    all_delta_contents.append(content)
-                except Exception as e:
-                    print(f"Error reading delta file {delta_file_path}: {e}")
-            else:
-                print(f"Warning: Delta file listed in manifest not found: {delta_file_path}")
+        # 1. Process structured deltas from files (standard list)
+        if "deltas" in self.manifest and isinstance(self.manifest["deltas"], list):
+            for relative_path_str in self.manifest["deltas"]:
+                delta_file_path = self.base_dir / relative_path_str
+                if delta_file_path.exists():
+                    try:
+                        content = delta_file_path.read_text(encoding='utf-8')
+                        all_delta_contents.append(content)
+                    except Exception as e:
+                        print(f"Error reading delta file {delta_file_path}: {e}")
+                else:
+                    print(f"Warning: Delta file listed in manifest not found: {delta_file_path}")
 
-        # Process simple deltas from the manifest itself
-        simple_deltas = self.manifest.get("simple_deltas", {})
-        for trait_name, formatted_string in simple_deltas.items():
-            all_delta_contents.append(formatted_string)
+        # 2. Process simple deltas (standard dict)
+        if "simple_deltas" in self.manifest and isinstance(self.manifest["simple_deltas"], dict):
+            for _, formatted_string in self.manifest["simple_deltas"].items():
+                all_delta_contents.append(str(formatted_string))
+
+        # 3. Process dynamic sections
+        # We skip 'deltas' and 'simple_deltas' as they are already handled.
+        skip_keys = ["deltas", "simple_deltas"]
+
+        for section_name, section_data in self.manifest.items():
+            if section_name in skip_keys:
+                continue
+
+            # Format the section header
+            section_header = f"###{section_name.upper()}_START###"
+            section_footer = "###_END###"
+
+            section_content = []
+
+            if isinstance(section_data, dict):
+                for k, v in section_data.items():
+                    section_content.append(f"{k}: {v}")
+            elif isinstance(section_data, list):
+                for item in section_data:
+                    section_content.append(str(item))
+            else:
+                section_content.append(str(section_data))
+
+            if section_content:
+                formatted_section = f"{section_header}\n" + "\n".join(section_content) + f"\n{section_footer}"
+                all_delta_contents.append(formatted_section)
 
         if not all_delta_contents:
             return ""

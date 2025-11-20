@@ -5285,7 +5285,8 @@ class LyrnAIInterface(ctk.CTkToplevel):
         potentially blocking operations. Runs in a background thread.
         """
         print("Starting background initialization...")
-        self.delta_manager = DeltaManager()
+        deltas_path = self.settings_manager.settings["paths"].get("deltas", "deltas")
+        self.delta_manager = DeltaManager(deltas_base_dir=deltas_path)
         self.automation_controller = AutomationController()
         self.snapshot_loader = SnapshotLoader(self, self.settings_manager, self.automation_controller)
         self.metrics = EnhancedPerformanceMetrics()
