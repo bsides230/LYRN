@@ -98,14 +98,14 @@ class VerbatimMemoryWatcher:
 
         # Append to current file
         with open(self.current_file, 'a', encoding='utf-8') as f:
-            # "dumping the final response without the brackets into the temp chat file"
-            # We append it to the file that already has the input.
-            # We add a separator for clarity, though prompt implied "dump... into temp chat".
-            # Assuming temp file has ONLY output now.
+            # Append the output block (which now includes brackets from the GUI)
             f.write("\n\n" + content)
 
         self.message_count_in_block += 1
         print(f"Saved output to {self.current_file}. Count: {self.message_count_in_block}")
+
+        # Reset current file to prevent appending to the wrong file if input is skipped
+        self.current_file = None
 
     def end_session(self):
         if self.current_session_dir and self.current_session_dir.exists():

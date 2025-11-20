@@ -1,3 +1,29 @@
+## v4.3.0 - Verbatim Chat Format and Watcher Control (2025-09-13)
+
+This update refines the Verbatim Episodic Memory system, introducing strict formatting for better parsing and giving users direct control over the archival process.
+
+- **Verbatim Chat Formatting:**
+    - The main GUI (`lyrn_sad_v4.3.0.py`) now wraps chat content in specific tags before writing to the temporary file.
+    - **Input Format:** `###INPUT_START###\n[User Message]\n###_END###`
+    - **Output Format:** `###OUTPUT_START###\n[AI Response]\n###_END###`
+    - This ensures that the watcher script and any future tools can unambiguously identify the components of a chat turn.
+
+- **Watcher Control & Toggle:**
+    - The "Save Chat History" toggle in the Settings menu now controls the Verbatim Memory Watcher.
+    - When enabled, the GUI signals the watcher to archive the current turn.
+    - When disabled, the watcher remains idle, preventing the archival of sensitive or ephemeral conversations.
+    - The `EpisodicMemoryManager` integration for saving chat history has been deprecated and removed in favor of this new, robust verbatim system.
+
+- **Watcher Robustness:**
+    - The `verbatim_memory_watcher.py` script has been updated to correctly handle the new tagged format.
+    - It now appends output blocks with proper separation and includes safety checks to prevent data from being appended to the wrong file if a turn is interrupted or skipped.
+
+- **Versioning:**
+    - The main application file has been versioned to `lyrn_sad_v4.3.0.py`.
+    - The previous version `lyrn_sad_v4.2.9.py` has been archived in `deprecated/Old/`.
+
+### Logging
+- Chat turns are now logged with explicit `###INPUT_START###` and `###OUTPUT_START###` tags in the Verbatim Memory history files.
 # LYRN-AI Build Notes
 
 ## v4.2.9 - Verbatim Episodic Memory Layer (2025-09-12)
