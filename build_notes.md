@@ -1,5 +1,27 @@
 # LYRN-AI Build Notes
 
+## v4.2.9 - Verbatim Episodic Memory Layer (2025-09-12)
+
+This update introduces the "Verbatim Episodic Memory Layer", a new system for archiving raw chat interactions into a structured file history, alongside the existing logging systems.
+
+- **New Verbatim Memory Watcher:**
+    - A new background script, `automation/verbatim_memory_watcher.py`, has been added.
+    - It monitors a temporary file for chat updates and archives them into a structured `Chat_History` directory.
+    - **Structure:**
+        - `Chat_History/Session_[StartTimestamp]_[EndTimestamp]/`: One folder per session.
+        - `Block_[Number]_[Timestamp]/`: Subfolders containing up to 50 chat pairs.
+        - `[Timestamp].txt`: Individual files for each chat turn containing the verbatim input and output.
+
+- **GUI Integration:**
+    - The main GUI (`lyrn_sad_v4.2.9.py`) has been updated to write each chat turn (input and final output) to a `temp_chat_turn.txt` file.
+    - State flags (`verbatim_state.txt`) are used to coordinate with the watcher script, ensuring data integrity.
+    - The watcher is automatically launched on startup and handles session closing gracefully.
+
+### Logging
+- Chat turns are now redundantly logged to the new Verbatim Memory system in addition to the existing `chat/` logs and Episodic Memory database.
+
+---
+
 ## v4.2.8 - Windows Quick Start Guide (2025-09-12)
 
 This is a documentation update to clarify the launch process for new users on Windows.
