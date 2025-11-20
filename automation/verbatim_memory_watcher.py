@@ -45,13 +45,43 @@ class VerbatimMemoryWatcher:
                     self.end_session()
                     break
 
+                elif status == "force_new_session":
+                    print("Forcing new session...")
+                    self.end_session()
+                    self.start_new_session(force=True)
+                    self.write_status("idle")
+
                 time.sleep(0.1)
             except Exception as e:
                 print(f"Error in Verbatim Memory Watcher: {e}")
                 time.sleep(1)
 
-    def start_new_session(self):
+    def start_new_session(self, force=False):
         self.history_dir.mkdir(parents=True, exist_ok=True)
+
+        if not force:
+            # Try to resume an existing open session
+            sessions = sorted([d for d in self.history_dir.iterdir() if d.is_dir() and d.name.startswith("Session_")])
+            if sessions:
+                last_session = sessions[-1]
+                parts = last_session.name.split('_')
+                # Session_YYYYMMDD_HHMMSS is 3 parts. Closed sessions have 5 parts (start + end timestamp)
+                if len(parts) == 3:
+                    print(f"Resuming session: {last_session}")
+                    self.current_session_dir = last_session
+
+                    # Find the last block
+                    blocks = sorted([d for d in self.current_session_dir.iterdir() if d.is_dir() and d.name.startswith("Block_")])
+                    if blocks:
+                        self.current_block_dir = blocks[-1]
+                        self.block_number = int(self.current_block_dir.name.split('_')[1])
+                        self.message_count_in_block = len(list(self.current_block_dir.glob("*.txt")))
+                        print(f"Resuming block: {self.current_block_dir} (Count: {self.message_count_in_block})")
+                    else:
+                        self.block_number = 1
+                        self.start_new_block()
+                    return
+
         self.session_start_time = datetime.now()
         # Session Folder: filename is timestamp session start
         timestamp = self.session_start_time.strftime("%Y%m%d_%H%M%S")

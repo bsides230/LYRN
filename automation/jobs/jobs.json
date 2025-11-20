@@ -2,5 +2,9 @@
   "chat_pair_summary": {
     "instructions": "Create a summary from the most recent chat pair in the following format\n\n- Summary (detailed summary about the intent of the chat pair)\n-- This sumary should append the running main summary if one is available. If one is not available, this summary will become the new running summary and should be more verbose.\n\n**TRIGGER = ##RUN_JOB: chat_pair_summary##**",
     "trigger": "##RUN_JOB: chat_pair_summary##"
+  },
+  "final_output": {
+    "instructions": "Generate the final response to the user based on the provided context, including the user input and any preceding job outputs.",
+    "trigger": "##RUN_JOB: final_output##"
   }
 }
