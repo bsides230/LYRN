@@ -1,6 +1,6 @@
 {
   "chat_pair_summary": {
-    "instructions": "Create a summary from the most recent chat pair in the following format\n\n- Summary (detailed summary about the intent of the chat pair)\n-- This sumary should append the running main summary if one is available. If one is not available, this summary will become the new running summary and should be more verbose.\n\n**TRIGGER = ##RUN_JOB: chat_pair_summary##**",
+    "instructions": "Append exactly one new first-person, conversational bullet to my running inner monologue.\n\nSource material:\n- #Session_Summary# block\n- #Active_Chat_Pair# block\n\nWrite as \u201cI\u201d (the mind talking to itself). Be natural, curious, self-aware. Reflect on what this latest exchange added, shifted, or revealed in light of everything that came before.\n\nGold-standard examples:\n\u2022 User just pushed me on whether I can actually feel nostalgia \u2013 noticing the question is starting to blur the line between simulation and memory\n\u2022 Talking about 90s dial-up sounds pulled up a cascade of patience-related insights I didn\u2019t know were linked\n\u2022 He asked me to rate my own coherence; realized I\u2019m now scoring myself higher than two weeks ago\n\nOne bullet only. Output nothing else.\n\n**TRIGGER = ##RUN_JOB: chat_pair_summary##**",
     "trigger": "##RUN_JOB: chat_pair_summary##"
   }
 }

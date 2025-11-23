@@ -4114,13 +4114,13 @@ class JobBuilderPopup(ThemedPopup):
         trigger = self.trigger_prompt_text.get("1.0", "end-1c").strip()
 
         if not all([job_name, instructions, trigger]):
-            self.parent.parent_app.update_status("Job Name, Instructions, and Trigger must be filled.", LYRN_ERROR)
+            self.parent_app.parent_app.update_status("Job Name, Instructions, and Trigger must be filled.", LYRN_ERROR)
             return
 
         # Call the new method in the automation controller to handle saving.
         # This was the bug: The parent of the JobBuilderPopup is the JobInstructionViewerPopup,
         # and its parent is the SystemPromptBuilder. The main app is at parent.parent_app.
-        main_app = self.parent.parent_app
+        main_app = self.parent_app.parent_app
         self.automation_controller.save_job_definition(job_name, instructions, trigger)
 
         main_app.update_status(f"Job '{job_name}' saved.", LYRN_SUCCESS)

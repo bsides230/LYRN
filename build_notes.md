@@ -1,5 +1,18 @@
 # LYRN-AI Build Notes
 
+## v4.2.9 - Automation Bug Fix (2025-09-12)
+
+This update fixes a critical bug that prevented new or edited jobs from being saved in the Automation popup.
+
+- **Job Saving Fix:**
+  - Resolved an `AttributeError: 'JobBuilderPopup' object has no attribute 'parent'` that occurred when attempting to save a job.
+  - The `JobBuilderPopup` now correctly references `self.parent_app` to access the main application instance for status updates and logging.
+
+### Logging
+- No changes to logging mechanisms were necessary for this update.
+
+---
+
 ## v4.2.8 - Windows Quick Start Guide (2025-09-12)
 
 This is a documentation update to clarify the launch process for new users on Windows.
