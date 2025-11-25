@@ -27,7 +27,7 @@
   {
     "name": "jobs",
     "order": 5,
-    "active": true
+    "active": false
   },
   {
     "name": "oss_tools",
