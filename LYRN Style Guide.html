@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>LYRN - UI Design System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <style>
+    /* =========================================
+       1. CORE VARIABLES (THEME ENGINE)
+       ========================================= */
+    :root {
+      /* DARK MODE (DEFAULT/VOID) */
+      --bg-core: #050505;
+      --bg-panel: #0a0a0a;
+      --brand-purple: #7c5cff;
+      --brand-purple-dim: rgba(124, 92, 255, 0.1);
+      
+      --text-head: #ffffff;
+      --text-body: #b0b0b0;
+      --text-dim: #666666;
+      
+      --border-color: #222222;
+      --code-bg: #000000;
+      --code-border: #333333;
+      --input-focus-bg: #111111;
+    }
+
+    /* LIGHT MODE OVERRIDES */
+    body[data-theme="light"] {
+      --bg-core: #ffffff;
+      --bg-panel: #f9f9f9;
+      --brand-purple: #7c5cff;
+      --brand-purple-dim: rgba(124, 92, 255, 0.08);
+      
+      --text-head: #000000;
+      --text-body: #333333;
+      --text-dim: #666666;
+      
+      --border-color: #e5e5e5;
+      --code-bg: #f4f4f6;
+      --code-border: #e0e0e0;
+      --input-focus-bg: #ffffff;
+    }
+
+    /* =========================================
+       2. GLOBAL RESET & TYPOGRAPHY
+       ========================================= */
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg-core);
+      color: var(--text-body);
+      font-family: "Inter", system-ui, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      line-height: 1.65;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    h1, h2, h3, h4, .mono {
+      font-family: "JetBrains Mono", monospace;
+      color: var(--text-head);
+      margin-top: 0;
+    }
+
+    /* =========================================
+       3. LAYOUT UTILITIES
+       ========================================= */
+    .page-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px;
+      min-height: 100vh;
+      border-right: 1px solid var(--border-color);
+      border-left: 1px solid var(--border-color);
+      background-color: var(--bg-core);
+      position: relative;
+    }
+
+    .section-divider {
+      border-bottom: 1px solid var(--border-color);
+      margin: 40px 0;
+      padding-bottom: 10px;
+      display: flex;
+      align-items: center;
+      color: var(--brand-purple);
+      font-family: "JetBrains Mono", monospace;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+    
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+
+    /* =========================================
+       4. TYPOGRAPHY COMPONENTS
+       ========================================= */
+    .hero-title {
+      font-size: 28px;
+      letter-spacing: -0.02em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .meta-label {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 10px;
+      color: var(--brand-purple);
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      font-weight: 600;
+      display: block;
+      margin-bottom: 12px;
+    }
+
+    p { font-size: 14px; margin-bottom: 16px; }
+
+    code {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 12px;
+      background: var(--code-bg);
+      border: 1px solid var(--code-border);
+      padding: 2px 6px;
+      border-radius: 4px;
+      color: var(--brand-purple);
+    }
+
+    /* =========================================
+       5. BUTTONS & INPUTS
+       ========================================= */
+    button {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 11px;
+      background: transparent;
+      border: 1px solid var(--border-color);
+      color: var(--text-dim);
+      padding: 10px 18px;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      transition: all 0.2s ease;
+    }
+
+    button:hover {
+      border-color: var(--brand-purple);
+      color: var(--brand-purple);
+    }
+
+    button.btn-primary {
+      background: var(--brand-purple);
+      color: #ffffff;
+      border-color: var(--brand-purple);
+      font-weight: 600;
+    }
+    button.btn-primary:hover { background: #6a4ce0; }
+
+    button.btn-delete {
+      color: #ff5c5c;
+      border-color: transparent;
+      padding: 4px 8px;
+    }
+    button.btn-delete:hover {
+      background: rgba(255, 92, 92, 0.1);
+      border-color: #ff5c5c;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      background: transparent;
+      border: 1px solid var(--border-color);
+      color: var(--text-body);
+      font-family: "JetBrains Mono", monospace;
+      font-size: 12px;
+      padding: 12px 16px;
+      outline: none;
+    }
+    input[type="text"]:focus {
+      background: var(--input-focus-bg);
+      color: var(--text-head);
+      border-color: var(--brand-purple);
+      box-shadow: inset 2px 0 0 var(--brand-purple);
+    }
+
+    /* =========================================
+       6. CALLOUTS & DATA BLOCKS
+       ========================================= */
+    .callout {
+      background: linear-gradient(90deg, var(--brand-purple-dim) 0%, transparent 100%);
+      border-left: 3px solid var(--brand-purple);
+      padding: 16px 20px;
+      font-size: 13px;
+      color: var(--text-body);
+    }
+    .callout strong { color: var(--text-head); }
+
+    .tag-container { display: flex; gap: 10px; }
+    .tag {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 10px;
+      border: 1px solid var(--border-color);
+      padding: 4px 8px;
+      color: var(--text-dim);
+      text-transform: uppercase;
+    }
+    .tag span { color: var(--text-head); font-weight: 600; }
+
+    /* =========================================
+       7. TABLE STYLES (DATA GRID)
+       ========================================= */
+    .table-wrapper {
+      overflow-x: auto;
+      border: 1px solid var(--border-color);
+      margin-top: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    th {
+      background-color: var(--bg-panel);
+      color: var(--brand-purple);
+      font-family: "JetBrains Mono", monospace;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 12px 16px;
+      text-align: left;
+      border-bottom: 2px solid var(--border-color);
+    }
+    td {
+      padding: 12px 16px; 
+      border-bottom: 1px solid var(--border-color);
+      color: var(--text-body);
+      vertical-align: middle;
+    }
+    tr:hover td { background-color: var(--bg-panel); }
+    .col-id { color: var(--brand-purple); font-family: "JetBrains Mono"; font-weight: bold; }
+    .col-main { color: var(--text-head); font-weight: 500; }
+
+    /* =========================================
+       8. COLOR SWATCHES (STYLE GUIDE ONLY)
+       ========================================= */
+    .swatch {
+      height: 60px;
+      border: 1px solid var(--border-color);
+      border-radius: 4px;
+      margin-bottom: 8px;
+    }
+    .swatch-label { font-family: "JetBrains Mono"; font-size: 10px; color: var(--text-dim); }
+    
+    /* =========================================
+       9. UTILITIES
+       ========================================= */
+    .theme-toggle {
+      position: absolute;
+      top: 20px; right: 20px;
+    }
+    footer {
+      margin-top: 60px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border-color);
+      display: flex;
+      justify-content: space-between;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 10px;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+  </style>
+</head>
+<body data-theme="dark">
+
+<div class="page-container">
+  
+  <button class="theme-toggle" onclick="toggleTheme()">[ Toggle Theme ]</button>
+
+  <header>
+    <div class="meta-label">LYRN · DESIGN SYSTEM</div>
+    <h1 class="hero-title">Interface Style Guide</h1>
+    <p style="color: var(--text-dim); max-width: 600px;">
+      Standardized visual components for the LYRN dashboard ecosystem. 
+      Utilizes JetBrains Mono for data/structure and Inter for prose.
+    </p>
+  </header>
+
+  <div class="section-divider">01 // Color Palette</div>
+  <div class="grid-4">
+    <div>
+      <div class="swatch" style="background: var(--bg-core);"></div>
+      <div class="swatch-label">--bg-core</div>
+      <code style="font-size: 10px;">#050505</code>
+    </div>
+    <div>
+      <div class="swatch" style="background: var(--bg-panel);"></div>
+      <div class="swatch-label">--bg-panel</div>
+      <code style="font-size: 10px;">#0a0a0a</code>
+    </div>
+    <div>
+      <div class="swatch" style="background: var(--brand-purple);"></div>
+      <div class="swatch-label">--brand-purple</div>
+      <code style="font-size: 10px;">#7c5cff</code>
+    </div>
+    <div>
+      <div class="swatch" style="background: var(--text-body);"></div>
+      <div class="swatch-label">--text-body</div>
+      <code style="font-size: 10px;">#b0b0b0</code>
+    </div>
+  </div>
+
+  <div class="section-divider">02 // Typography</div>
+  <div class="grid-2">
+    <div>
+      <div class="meta-label">Headings (JetBrains Mono)</div>
+      <h1>Heading Level 1</h1>
+      <h2>Heading Level 2</h2>
+      <h3>Heading Level 3</h3>
+    </div>
+    <div>
+      <div class="meta-label">Body (Inter)</div>
+      <p>
+        The primary typeface for readability is <strong>Inter</strong>. It is used for long-form content, documentation, and descriptions. 
+        It supports high legibility in both light and dark modes.
+      </p>
+      <p style="color: var(--text-dim);">
+        Dimmed text is used for secondary information or metadata that shouldn't distract from the primary content focus.
+      </p>
+    </div>
+  </div>
+
+  <div class="section-divider">03 // Interactive Elements</div>
+  <div class="grid-2">
+    <div>
+      <div class="meta-label">Buttons</div>
+      <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 20px;">
+        <button class="btn-primary">[ Primary Action ]</button>
+        <button>[ Secondary ]</button>
+        <button class="btn-delete">✕ Delete</button>
+      </div>
+      
+      <div class="meta-label">Inputs</div>
+      <input type="text" placeholder="Enter system command or query..." style="margin-bottom: 10px;">
+      <input type="text" value="Pre-filled data value" readonly style="color: var(--text-dim); cursor: not-allowed;">
+    </div>
+    
+    <div>
+      <div class="meta-label">Tags & Meta</div>
+      <div class="tag-container" style="margin-bottom: 20px;">
+        <div class="tag">Status: <span>Active</span></div>
+        <div class="tag">Version: <span>v1.0.4</span></div>
+        <div class="tag">System: <span>Stable</span></div>
+      </div>
+
+      <div class="meta-label">Callouts</div>
+      <div class="callout">
+        <div class="meta-label" style="margin-bottom: 4px;">System Notification</div>
+        <strong>OFFLINE MODE ACTIVE:</strong> Changes made here will persist locally until the next sync cycle.
+      </div>
+    </div>
+  </div>
+
+  <div class="section-divider">04 // Data Presentation</div>
+  
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 50px;">ID</th>
+          <th style="width: 200px;">Entity Name</th>
+          <th>System Status</th>
+          <th style="text-align: right;">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="col-id">t01</td>
+          <td class="col-main">Global_Topic_Index</td>
+          <td><div class="tag" style="display:inline-block; border:none; padding:0;"><span>Linked</span></div></td>
+          <td style="text-align: right;"><button class="btn-primary" style="padding: 4px 8px; font-size: 10px;">Edit</button></td>
+        </tr>
+        <tr>
+          <td class="col-id">t02</td>
+          <td class="col-main">Reflection_Cycle</td>
+          <td><div class="tag" style="display:inline-block; border:none; padding:0; color: #ff5c5c;">Pending</div></td>
+          <td style="text-align: right;"><button class="btn-primary" style="padding: 4px 8px; font-size: 10px;">Edit</button></td>
+        </tr>
+        <tr>
+          <td class="col-id">t03</td>
+          <td class="col-main">Delta_Manager</td>
+          <td><div class="tag" style="display:inline-block; border:none; padding:0;"><span>Active</span></div></td>
+          <td style="text-align: right;"><button class="btn-primary" style="padding: 4px 8px; font-size: 10px;">Edit</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <footer>
+    <span>LYRN SYSTEMS // THE SIMULATION COMPANY</span>
+    <span>STYLE GUIDE // EOF</span>
+  </footer>
+
+</div>
+
+<script>
+    // Simple theme toggler to test Light/Dark modes
+    function toggleTheme() {
+      const body = document.body;
+      const currentTheme = body.getAttribute('data-theme');
+      body.setAttribute('data-theme', currentTheme === 'dark' ? 'light' : 'dark');
+    }
+</script>
+
+</body>
+</html>
