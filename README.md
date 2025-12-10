@@ -1,3 +1,5 @@
+# LYRN DASHBOARD v5 COMING SOON!!!
+
 # LYRN-AI Cognitive Architecture - v4.2.7
 
 **LYRN (Live-reasoning & Structured Memory)** is a highly modular, professional-grade GUI for interacting with local Language Models. It is designed from the ground up for efficiency, accessibility, and genuine cognitive continuity. It features advanced job automation, live system monitoring, a dynamic prompt building system, and a robust, file-based architecture for memory and inter-process communication.
