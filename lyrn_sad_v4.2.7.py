@@ -1067,10 +1067,16 @@ class StreamHandler:
         self.log_buffer = ""
         self.buffer = ""
         self.current_role = "final_output"  # Start with a default role
-        self.role_tags = {
-            "<|channel|>analysis<|message|>": "thinking_process",
-            "<|start|>assistant<|channel|>final<|message|>": "final_output",
-        }
+        self.role_tags = {}
+        for role,-category in self.role_mappings.items():
+            if category == "thinking_process":
+                # Format for thinking tags, e.g., <|channel|>analysis<|message|>
+                tag = f"<|channel|>{role}<|message|>"
+                self.role_tags[tag] = category
+            elif category == "final_output":
+                # Format for final output tags, e.g., <|start|>assistant<|channel|>final<|message|>
+                tag = f"<|start|>{role}<|channel|>final<|message|>"
+                self.role_tags[tag] = category
 
 
     def _process_buffer(self):
