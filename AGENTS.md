@@ -2,7 +2,6 @@
 
 This file contains critical architectural rules that must be followed during development.
 
- - DO NOT BREAK 3 COLUMN LAYOUT!!
 
  - Always Version the LYRN_GUI from v*.* to v*.* , or v*.*.* example v6.1 to v6.2 and then save the old version to deprecated/Old/ in the directory
 
