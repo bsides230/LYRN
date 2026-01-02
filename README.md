@@ -1,6 +1,4 @@
-# LYRN DASHBOARD v5 COMING SOON!!!
-
-# LYRN-AI Cognitive Architecture - v4.2.7
+# LYRN-AI Cognitive Architecture - v4.2.10
 
 **LYRN (Live-reasoning & Structured Memory)** is a highly modular, professional-grade GUI for interacting with local Language Models. It is designed from the ground up for efficiency, accessibility, and genuine cognitive continuity. It features advanced job automation, live system monitoring, a dynamic prompt building system, and a robust, file-based architecture for memory and inter-process communication.
 
@@ -81,7 +79,7 @@ LYRN is built on a philosophy that diverges significantly from mainstream LLM de
 
 3.  **Run Application**:
     ```bash
-    python lyrn_sad_v4.2.6.pyw
+    python lyrn_sad_v4.2.10.pyw
     ```
 
 4.  **First Launch Setup**:
@@ -92,7 +90,7 @@ LYRN is built on a philosophy that diverges significantly from mainstream LLM de
 ## Key Files
 
 ### Core Application
-- `lyrn_sad_v4.2.6.pyw` - The main GUI application file.
+- `lyrn_sad_v4.2.10.pyw` - The main GUI application file.
 - `settings.json` - Auto-generated configuration file for model settings, paths, and UI preferences.
 - `automation/` - Contains all background watcher scripts and configurations for autonomous operation.
 - `build_prompt/` - Contains all modular components for building the system prompt.

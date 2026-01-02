@@ -1,5 +1,34 @@
 # LYRN-AI Build Notes
 
+## v4.2.10 - Log Viewer Stability Fix (2025-09-13)
+
+This update resolves a critical application freeze ("Not Responding") that occurred when offloading/reloading a model while the Log Viewer popup was open.
+
+- **Log Viewer Optimization:**
+  - Implemented a batch processing limit in the `LogViewerPopup` (100 lines per 50ms). This prevents the main GUI thread from becoming blocked by the high volume of logs generated during model initialization.
+  - Added robustness checks (`winfo_exists`) and exception handling to the log processing loop to ensure stability even if the popup state changes unexpectedly.
+- **Versioning:**
+  - Updated main application file to `lyrn_sad_v4.2.10.pyw`.
+  - Updated `README.md` to reflect the current version.
+
+### Logging
+- The log viewer itself has been made more robust, ensuring that system logs can be viewed without compromising application stability.
+
+---
+
+## v4.2.9 - Automation Bug Fix (2025-09-12)
+
+This update fixes a critical bug that prevented new or edited jobs from being saved in the Automation popup.
+
+- **Job Saving Fix:**
+  - Resolved an `AttributeError: 'JobBuilderPopup' object has no attribute 'parent'` that occurred when attempting to save a job.
+  - The `JobBuilderPopup` now correctly references `self.parent_app` to access the main application instance for status updates and logging.
+
+### Logging
+- No changes to logging mechanisms were necessary for this update.
+
+---
+
 ## v4.2.8 - Windows Quick Start Guide (2025-09-12)
 
 This is a documentation update to clarify the launch process for new users on Windows.

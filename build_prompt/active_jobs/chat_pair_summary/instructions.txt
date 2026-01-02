@@ -1,0 +1,6 @@
+Create a summary from the most recent chat pair in the following format
+
+- Summary (detailed summary about the intent of the chat pair)
+-- This sumary should append the running main summary if one is available. If one is not available, this summary will become the new running summary and should be more verbose.
+
+**TRIGGER = ##RUN_JOB: chat_pair_summary##**

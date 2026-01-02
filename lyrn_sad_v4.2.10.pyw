@@ -1221,9 +1221,13 @@ class LogViewerPopup(ThemedPopup):
         self.attributes("-topmost", is_on_top)
 
     def process_log_queue(self):
-        """Checks the queue for new output and displays it."""
+        """Checks the queue for new output and displays it with a batch limit."""
+        if not self.winfo_exists():
+            return
+
         try:
-            while True:
+            # Process up to 100 lines per tick to prevent freezing the UI
+            for _ in range(100):
                 line = self.log_queue.get_nowait()
                 self.textbox.configure(state="normal")
                 self.textbox.insert("end", line)
@@ -1231,8 +1235,11 @@ class LogViewerPopup(ThemedPopup):
                 self.textbox.configure(state="disabled")
         except queue.Empty:
             pass
+        except Exception as e:
+            print(f"Error updating log viewer: {e}")
         finally:
-            self.after(100, self.process_log_queue)
+            if self.winfo_exists():
+                self.after(50, self.process_log_queue)
 
 
 class JournalLogger:
@@ -4114,13 +4121,13 @@ class JobBuilderPopup(ThemedPopup):
         trigger = self.trigger_prompt_text.get("1.0", "end-1c").strip()
 
         if not all([job_name, instructions, trigger]):
-            self.parent.parent_app.update_status("Job Name, Instructions, and Trigger must be filled.", LYRN_ERROR)
+            self.parent_app.parent_app.update_status("Job Name, Instructions, and Trigger must be filled.", LYRN_ERROR)
             return
 
         # Call the new method in the automation controller to handle saving.
         # This was the bug: The parent of the JobBuilderPopup is the JobInstructionViewerPopup,
         # and its parent is the SystemPromptBuilder. The main app is at parent.parent_app.
-        main_app = self.parent.parent_app
+        main_app = self.parent_app.parent_app
         self.automation_controller.save_job_definition(job_name, instructions, trigger)
 
         main_app.update_status(f"Job '{job_name}' saved.", LYRN_SUCCESS)
@@ -5478,7 +5485,7 @@ class LyrnAIInterface(ctk.CTkToplevel):
 
     def setup_window(self):
         """Configure main window with LYRN-AI branding"""
-        self.title("LYRN-AI Dashboard v4.2.7")
+        self.title("LYRN-AI Dashboard v4.2.10")
         size = self.settings_manager.ui_settings.get("window_size", "1400x900")
         self.geometry(size)
         self.minsize(1200, 800)
